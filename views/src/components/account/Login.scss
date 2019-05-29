@@ -1,0 +1,115 @@
+@import "../../common/style/colors";
+.wrapper {
+  overflow-y: hidden !important;
+}
+.hbm-login {
+  float: left;
+  width: 100%;
+  background: $white-color;
+  height: 100%;
+  position: absolute;
+  .login-form {
+    background: $white-color;
+    max-width: 323px;
+    width: 340px;
+    margin-top: -200px;
+    margin-left: -145px;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    .form {
+      h1 {
+        font-size: 30px;
+        margin-bottom: 40px;
+      }
+      .form-group {
+        margin-bottom: 10px;
+        position: relative;
+        label {
+          position: absolute;
+          top: 10px;
+          left: 15px;
+          font-size: 12px;
+          font-weight: bold;
+        }
+      }
+      .has-error {
+        input {
+          border: 1px solid red;
+          color: red;
+        }
+      }
+      span {
+        color: red;
+        font-size: 12px;
+      }
+      input {
+        outline: none;
+        display: block;
+        width: 100%;
+        border: 1px solid $border-input;
+        padding: 30px 15px 10px;
+        box-sizing: border-box;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+        font-size: 16px;
+        color: $input-login-color !important;
+        border-radius: 3px;
+      }
+      input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+        background: #fff;
+      }
+      .checkbox {
+        padding-left: 20px;
+        padding-top: 20px;
+        input[type="checkbox"] {
+          display: inline-block;
+          position: absolute;
+          width: 17px;
+          height: 17px;
+          left: 0;
+        }
+        label {
+          display: inline-block;
+          position: relative;
+          padding-left: 5px;
+        }
+      }
+      button {
+        cursor: pointer;
+        background: $office-color;
+        width: 100%;
+        border: 0;
+        padding: 10px 15px;
+        color: #ffffff;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+        border-radius: 3px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+      }
+      .forgetPassword {
+        width: 100%;
+        padding-top: 10px;
+        box-sizing: border-box;
+        color: #666666;
+        font-size: 12px;
+        text-align: center;
+        a {
+          color: #333333;
+          text-decoration: none;
+        }
+      }
+    }
+    h2 {
+      margin: 0 0 20px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1;
+    }
+  }
+}
+
+.login-page {
+  background: $white-color !important;
+}

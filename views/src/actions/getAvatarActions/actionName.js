@@ -1,0 +1,1 @@
+export const GET_AVATAR_SUCCESS = "GET_AVATAR_SUCCESS";

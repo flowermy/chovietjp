@@ -1,0 +1,62 @@
+{
+    "vi": {
+        "Header.shippFee": "Phí Ship",
+        "Header.getting": "Giới Thiệu",
+        "Header.contact": "Liên Hệ",
+        "Header.login": "Đăng Nhập",
+        "Header.logout": "Thoát",
+        "Header.register": "Đăng Ký",
+        "Header.order": "Đặt Hàng",
+
+        "Test.demo": "Ví dụ",
+        "Test.ratioA11": "Tiếng Việt",
+        "Test.ratioA12": "Tiếng Nhật",
+        "Test.ratioA13": "Tiếng Anh",
+        "Test.ratioA14": "Tiếng Thái"
+    },
+    "ja": {
+        "Header.shippFee": "送料",
+        "Header.getting": "紹介",
+        "Header.contact": "お問合せ",
+        "Header.login": "ログイン",
+        "Header.logout": "ログアウト",
+        "Header.register": "登録",
+        "Header.order": "注文履歴",
+
+        "Test.demo": "例",
+        "Test.ratioA11": "ベトナム語",
+        "Test.ratioA12": "日本語",
+        "Test.ratioA13": "英語",
+        "Test.ratioA14": "タイ語"
+    },
+    "en": {
+        "Header.shippFee": "Shipping Fee",
+        "Header.getting": "About Us",
+        "Header.contact": "Contact",
+        "Header.login": "Login",
+        "Header.logout": "Logout",
+        "Header.register": "Signup",
+        "Header.order": "Orders",
+
+        "Test.demo": "Example",
+        "Test.ratioA11": "Vietnamese",
+        "Test.ratioA12": "Japanese",
+        "Test.ratioA13": "English",
+        "Test.ratioA14": "Thai"
+    },
+    "th": {
+        "Header.shippFee": "ค่าจัดส่ง",
+        "Header.getting": "เกี่ยวกับเรา",
+        "Header.contact": "ติดต่อ",
+        "Header.login": "เข้าสู่ระบบ",
+        "Header.logout": "ออกจากระบบ",
+        "Header.register": "การลงทะเบียน",
+        "Header.order": "คำสั่งซื้อ",
+
+        "Test.demo": "ตัวอย่าง",
+        "Test.ratioA11": "เวียตนาม",
+        "Test.ratioA12": "ญี่ปุ่น",
+        "Test.ratioA13": "อังกฤษ",
+        "Test.ratioA14": "ไทย"
+    }
+}

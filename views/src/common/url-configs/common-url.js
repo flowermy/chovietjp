@@ -1,0 +1,16 @@
+export const apiUrls = {
+  INIT: '',
+  LOGIN: '/api/v1/login',
+  GET_ALL_ROOM_BED: '/api/v1/room-bed',
+  GET_ALL_ROOM_BED_AVAILABLE: '/api/v1/room-bed/available',
+  GET_ALL_ROOM_BED_TEMPBOOK: '/api/v1/room-bed/temp',
+  GET_ALL_BUNRUI: '/api/v1/bunrui',
+  NYUTAISHO_JOKYO: '/api/v1/nyutaisho-jokyo',
+  GAIHAKU_NYUIN_JOKYO: '/api/v1/gaihaku-nyuin-jokyo',
+  JOKYO: '/api/v1/jokyo',
+  GET_RIYOUSYAID_BY_RIYOUSYANAME: '/api/v1/riyousya',
+  GET_AVATAR: '/api/v1/avatar',
+  GET_AVAILABLE_ROOM_LIST: '/api/v1/application/route/available-room-list',
+  ROOM_BED_AVAILABLE: '/api/v1/room-bed/available',
+  GET_SETTINGS_TIME: '/api/v1/application/setting',
+};

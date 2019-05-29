@@ -1,0 +1,93 @@
+.wrapper {
+  overflow-y: hidden !important; }
+
+.hbm-login {
+  float: left;
+  width: 100%;
+  background: #fff;
+  height: 100%;
+  position: absolute; }
+  .hbm-login .login-form {
+    background: #fff;
+    max-width: 323px;
+    width: 340px;
+    margin-top: -200px;
+    margin-left: -145px;
+    position: absolute;
+    left: 50%;
+    top: 35%; }
+    .hbm-login .login-form .form h1 {
+      font-size: 30px;
+      margin-bottom: 40px; }
+    .hbm-login .login-form .form .form-group {
+      margin-bottom: 10px;
+      position: relative; }
+      .hbm-login .login-form .form .form-group label {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        font-size: 12px;
+        font-weight: bold; }
+    .hbm-login .login-form .form .has-error input {
+      border: 1px solid red;
+      color: red; }
+    .hbm-login .login-form .form span {
+      color: red;
+      font-size: 12px; }
+    .hbm-login .login-form .form input {
+      outline: none;
+      display: block;
+      width: 100%;
+      border: 1px solid #e0e0e0;
+      padding: 30px 15px 10px;
+      box-sizing: border-box;
+      -webkit-transition: 0.3s ease;
+      transition: 0.3s ease;
+      font-size: 16px;
+      color: #545454 !important;
+      border-radius: 3px; }
+    .hbm-login .login-form .form input:-webkit-autofill, .hbm-login .login-form .form textarea:-webkit-autofill, .hbm-login .login-form .form select:-webkit-autofill {
+      background: #fff; }
+    .hbm-login .login-form .form .checkbox {
+      padding-left: 20px;
+      padding-top: 20px; }
+      .hbm-login .login-form .form .checkbox input[type="checkbox"] {
+        display: inline-block;
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 0; }
+      .hbm-login .login-form .form .checkbox label {
+        display: inline-block;
+        position: relative;
+        padding-left: 5px; }
+    .hbm-login .login-form .form button {
+      cursor: pointer;
+      background: #008388;
+      width: 100%;
+      border: 0;
+      padding: 10px 15px;
+      color: #ffffff;
+      -webkit-transition: 0.3s ease;
+      transition: 0.3s ease;
+      border-radius: 3px;
+      margin-top: 20px;
+      margin-bottom: 15px; }
+    .hbm-login .login-form .form .forgetPassword {
+      width: 100%;
+      padding-top: 10px;
+      box-sizing: border-box;
+      color: #666666;
+      font-size: 12px;
+      text-align: center; }
+      .hbm-login .login-form .form .forgetPassword a {
+        color: #333333;
+        text-decoration: none; }
+    .hbm-login .login-form h2 {
+      margin: 0 0 20px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1; }
+
+.login-page {
+  background: #fff !important; }
