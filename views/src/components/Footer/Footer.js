@@ -15,7 +15,7 @@ const dataLeftFooter = [
         title: 'Hướng Dẫn Mua Hàng',
     },
     {
-        title: 'HOTLINE: 090xxxxxxx',
+        title: 'HOTLINE: 080.1230.1486',
     },
 ];
 
@@ -120,7 +120,7 @@ export default class Footer extends React.Component {
                         <div>
                             <p>Doanh Nghiệp Kinh Doanh Thực Phẩm</p>
                             <p>Địa Chỉ: 広島県広島市西区三篠町 2-14-8</p>
-                            <p>Phone: 080 1230 1486</p>
+                            <p>Hotline: 080.1230.1486</p>
                         </div>
                     </div>
                 </div>

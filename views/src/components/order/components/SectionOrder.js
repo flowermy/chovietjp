@@ -1,8 +1,13 @@
 import React from 'react'
 
-import { Row, Popconfirm, Divider, Table, Select, Button, Modal, Icon, InputNumber, Col } from 'antd'
+import { Row, Popconfirm, Divider, Table, Select, Button, Modal, Icon, InputNumber, Col, Popover } from 'antd'
+
+import html2canvas from 'html2canvas'
+
 import products from '../../../data/products'
-import { setValueLocalstorage, getValueLocalstorage } from '../../../common/function_common/functionCommon';
+import { setValueLocalstorage, getValueLocalstorage, handleInputNumber } from '../../../common/function_common/functionCommon'
+import Number from '../../../common/virtualkeyboard/number'
+
 
 const Option = Select.Option;
 export default class SectionOrder extends React.Component {
@@ -15,7 +20,8 @@ export default class SectionOrder extends React.Component {
             record: null,
             loading: false,
             number: 1,
-            ordered: getValueLocalstorage('ordered') ? JSON.parse(getValueLocalstorage('ordered')) : []
+            ordered: getValueLocalstorage('ordered') ? JSON.parse(getValueLocalstorage('ordered')) : [],
+
         }
 
         //
@@ -32,12 +38,16 @@ export default class SectionOrder extends React.Component {
         this.preview = this.preview.bind(this)
         this.next = this.next.bind(this)
 
+        this.resetNumberState = this.resetNumberState.bind(this)
+        this.handleInputNoKeyBoard = this.handleInputNoKeyBoard.bind(this)
+
     }
 
     onRowNumberClick(record) {
         this.setState({
             visible: true,
-            record: record
+            record: record,
+            number: record.number
         })
     }
 
@@ -147,7 +157,7 @@ export default class SectionOrder extends React.Component {
         if (index > 0) {
             this.setState({
                 record: preData[index - 1],
-                number: 1
+                number: preData[index - 1].number
             })
         }
     }
@@ -159,11 +169,39 @@ export default class SectionOrder extends React.Component {
         if (index < preData.length - 1) {
             this.setState({
                 record: preData[index + 1],
-                number: 1
+                number: preData[index - 1].number
             })
         }
     }
 
+    resetNumberState = () => {
+        this.setState({
+            number: 0
+        })
+    }
+
+    handleInputNoKeyBoard = (number) => {
+        this.setState({
+            number: handleInputNumber(number, this.state.number)
+        })
+    }
+
+    takeScreenshot() {
+        let orderScreen = document.querySelector('#table-order');
+
+        var today = new Date();
+        let todayToString = today.getFullYear() + (today.getMonth()+1) + today.getDate() + today.getHours() + today.getMinutes() + today.getSeconds();
+        html2canvas(orderScreen, { useCORS: true }).then((canvas) => {
+            // let imgData = canvas.toDataURL('image/png');
+            // let saveImage = document.getElementById('testing').appendChild(canvas)
+
+            var a = document.createElement('a');
+            a.href = canvas.toDataURL("image/png").replace("image/png", "image/png");
+            a.download = 'chovietjp-' + todayToString + '.jpg';
+            a.click();
+            
+        });
+    }
 
     render() {
 
@@ -235,8 +273,8 @@ export default class SectionOrder extends React.Component {
 
         const headerTable = (
             <Row>
-                <Col span={12}><strong>Tổng: </strong>{totalOrder} y</Col>
-                <Col span={12} style={{ textAlign: 'right' }}>
+                <Col span={10}><strong>Tổng: </strong>{totalOrder} y</Col>
+                <Col span={14} style={{ textAlign: 'right' }}>
                     <Popconfirm
                         title="Bạn Muốn Xóa Tất Cả Sản Phẩm ?"
                         onConfirm={this.removeAll.bind(this)}
@@ -247,7 +285,7 @@ export default class SectionOrder extends React.Component {
                         <Button>Xóa Hết</Button>
                     </Popconfirm>
 
-
+                    <Button type="primary" style={{ marginLeft: '16px', float: 'right' }} onClick={this.takeScreenshot}>Lưu Đơn</Button>
                 </Col>
             </Row>
         )
@@ -255,15 +293,18 @@ export default class SectionOrder extends React.Component {
         const footerTable = (
             <Row>
                 <Col span={12}><strong>Tổng: </strong>{totalOrder} y</Col>
+
+                <Button type="primary" style={{ marginLeft: '16px', float: 'right' }}>Lưu Đơn</Button>
             </Row>
         )
 
         return (
             <div className={'secsion-order, content-jp'}>
+                <div id="testing"></div>
                 <Row>
                     <Divider orientation="left">Đơn Hàng</Divider>
                 </Row>
-                <Row style={{ marginBottom: '24px', padding: '0 16px'}}>
+                <Row style={{ marginBottom: '24px', padding: '0 16px' }}>
                     <Col span={6}>
                         <p style={{ paddingLeft: '8px' }}><strong>Thêm SP: </strong></p>
                     </Col>
@@ -350,6 +391,8 @@ export default class SectionOrder extends React.Component {
                         title={() => headerTable}
                         footer={() => footerTable}
 
+                        id="table-order"
+
                     />
                 </Row>
 
@@ -376,14 +419,19 @@ export default class SectionOrder extends React.Component {
                         ]
                     }
                 >
-                    <Row gutter={16} style={{textAlign: 'center'}}>
+                    <Row gutter={16} style={{ textAlign: 'center' }}>
                         <span>
-                            <Button>Số Lượng</Button>
+                            <Popover placement="bottomRight" content={<Number handleInput={this.handleInputNoKeyBoard} />} trigger="click">
+                                <Button type='primary' onClick={this.resetNumberState}>Số Lượng</Button>
+                            </Popover>
                             <InputNumber
-                                min={1}
-                                max={100}
+                                min={0}
+                                max={1000}
                                 defaultValue={this.state.record && this.state.record.number ? this.state.record.number : 1}
-                                onChange={this.onChangeNumber}
+                                value={this.state.number}
+                                disabled
+                                className="order-page-input"
+
                             />
                             <Button type="primary" onClick={this.order} >Đặt Hàng</Button>
                         </span>

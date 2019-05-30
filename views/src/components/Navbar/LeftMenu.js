@@ -20,7 +20,7 @@ class LeftMenu extends Component {
           </a>
         </Menu.Item>
         <Menu.Item key="2">
-          <a href="/"><FormattedMessage id="Header.getting" defaultMessage="Giới Thiệu" /></a>
+          <a href="/about"><FormattedMessage id="Header.getting" defaultMessage="Giới Thiệu" /></a>
         </Menu.Item>
         <Menu.Item key="3">
           <a href="/"><FormattedMessage id="Header.contact" defaultMessage="Liên Hệ" /></a>

@@ -2,12 +2,10 @@ import React, { Component } from 'react';
 
 import {
   Row,
-  Modal,
-  List,
-  Typography,
-  notification,
   Badge,
   Icon,
+  Col,
+  Carousel,
   Divider
 } from 'antd'
 
@@ -16,44 +14,11 @@ import { setValueLocalstorage, getValueLocalstorage } from '../../common/functio
 import Navbar from '../Navbar'
 import SectionHomeCate from './components/SectionHomeCate'
 import SectionOrder from './components/SectionOrder'
-import Footer from '../Footer/Footer'
+import Footer from '../footer/footer'
 
 import Lang from '../Lang/lang'
 
 import banner from '../../common/images/cover.jpg';
-
-import vietlogo from '../../common/images/vietnam.png'
-import americalogo from '../../common/images/united-states.png'
-import japanlogo from '../../common/images/japan.png'
-import thailogo from '../../common/images/thailand.png'
-
-const data = [
-  {
-    id: 1,
-    name: 'Tiếng Việt',
-    code: 'vi',
-    logo: vietlogo
-  },
-  {
-    id: 2,
-    name: '日本語',
-    code: 'ja',
-    logo: japanlogo
-  },
-  {
-    id: 3,
-    name: 'English',
-    code: 'en',
-    logo: americalogo
-  },
-  {
-    id: 4,
-    name: 'ภาษาไทย',
-    code: 'th',
-    logo: thailogo
-  },
-];
-
 
 export default class Home extends Component {
   constructor(props) {
@@ -75,13 +40,6 @@ export default class Home extends Component {
   }
 
   componentDidMount() {
-    // if (this.state.displayCart) {
-    //   this.openCartIcon();
-
-    //   this.setState({
-    //     displayCart: false,
-    //   })
-    // }
 
   }
   componentDidUpdate() {
@@ -155,6 +113,78 @@ export default class Home extends Component {
             <img src={banner} style={{ width: '100%' }} />
           </div>
         </Row>
+        <Row className='content-jp'>
+          <Divider orientation="left">Sản Phẩm Hot</Divider>
+          <Carousel autoplay>
+            <div>
+              <Row className="home-hot-product">
+                <Col span={12}>
+                  <div className="home-hot-product-item">
+                    <img src="https://sc02.alicdn.com/kf/UTB8TcLwuqrFXKJk43Ovq6ybnpXaA/100264683/UTB8TcLwuqrFXKJk43Ovq6ybnpXaA.jpg" />
+                    <div>
+                      <h3>Mì Hảo Hảo Thùng</h3>
+                      <p><strong>2150y</strong> / 01 Thùng</p>
+                    </div>
+                  </div>
+                </Col>
+                <Col span={12}>
+                  <div className="home-hot-product-item">
+                    <img src="https://hatgiongphuongnam.com/asset/editor/ResponsiveFilemanager-master/source/H%E1%BA%A1t%20gi%E1%BB%91ng%20rau%20c%E1%BB%A7%20qu%E1%BA%A3/hat-giong-rau-muong-can-1.1.jpg" />
+                    <div>
+                      <h3>Rau Muống Tươi</h3>
+                      <p><strong>290y</strong> / 01 Bó</p>
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+            </div>
+            <div>
+              <Row className="home-hot-product">
+                <Col span={12}>
+                  <div className="home-hot-product-item">
+                    <img src="https://bizweb.dktcdn.net/100/115/861/products/bap-bo-uc-png.png?" />
+                    <div>
+                      <h3>Bắp Bò Úc</h3>
+                      <p><strong>1350y</strong> / 01 kg</p>
+                    </div>
+                  </div>
+                </Col>
+                <Col span={12}>
+                  <div className="home-hot-product-item">
+                    <img src="https://www.huongnghiepaau.com/wp-content/uploads/2019/01/vit-nuong-chao.jpg" />
+                    <div>
+                      <h3>Vịt Xiêm ~1.7kg</h3>
+                      <p><strong>1480y</strong> / 01 Con</p>
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+            </div>
+            <div>
+              <Row className="home-hot-product">
+                <Col span={12}>
+                  <div className="home-hot-product-item">
+                    <img src="http://thucphamdongnai.com/assets/images/4/thit-ba-roi-86c58c34.jpg" />
+                    <div>
+                      <h3>Ba Chỉ Có Da</h3>
+                      <p><strong>1150y</strong> / 01 kg</p>
+                    </div>
+                  </div>
+                </Col>
+                <Col span={12}>
+                  <div className="home-hot-product-item">
+                    <img src="https://afamilycdn.com/2019/1/27/photo-4-1548563578409282431357-crop-15485658255651572324121.jpg" />
+                    <div>
+                      <h3>Gà Dai TO</h3>
+                      <p><strong>680y</strong> / 01 Con</p>
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+            </div>
+          </Carousel>
+        </Row>
+
         <SectionHomeCate />
         <SectionOrder
           order={this.order}

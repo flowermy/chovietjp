@@ -148,13 +148,13 @@ export default class SectionOrder extends React.Component {
                 >
                     <Row gutter={16} style={{textAlign: 'center'}}>
                         <span>
-                            <Button>Số Lượng</Button>
+                            {/* <Button>Số Lượng</Button>
                             <InputNumber
                                 min={1}
                                 max={100}
                                 defaultValue={1}
                                 onChange={this.onChangeNumber}
-                            />
+                            /> */}
                             <Button type="primary" onClick={this.order} >Đặt Hàng</Button>
                         </span>
 

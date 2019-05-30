@@ -2,48 +2,15 @@ import React, { Component } from 'react';
 
 import {
   Row,
-  Modal,
-  List,
-  Typography,
-  notification,
-  Badge,
-  Icon,
-  Divider
 } from 'antd'
 
 import { setValueLocalstorage, getValueLocalstorage } from '../../common/function_common/functionCommon'
 
 import Navbar from '../Navbar'
-import SectionHomeCate from './components/SectionHomeCate'
 import SectionOrder from './components/SectionOrder'
-import Footer from '../Footer/Footer'
+import Footer from '../footer/footer'
 
 import Lang from '../Lang/lang'
-
-import banner from '../../common/images/cover.jpg';
-
-const data = [
-  {
-    id: 1,
-    name: 'Tiếng Việt',
-    code: 'vi'
-  },
-  {
-    id: 2,
-    name: '日本語',
-    code: 'ja'
-  },
-  {
-    id: 3,
-    name: 'English',
-    code: 'en'
-  },
-  {
-    id: 4,
-    name: 'ภาษาไทย',
-    code: 'th'
-  },
-];
 
 
 export default class Order extends Component {

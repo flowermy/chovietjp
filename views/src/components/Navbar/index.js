@@ -3,7 +3,7 @@ import LeftMenu from './LeftMenu'
 import RightMenu from './RightMenu'
 import { Drawer, Button, Icon } from 'antd';
 
-import Logo from '../../common/images/logo_chovietjp.jpg';
+import Logo from '../../common/images/logo_chovietjp.png';
 
 class Navbar extends Component {
 	constructor(props) {

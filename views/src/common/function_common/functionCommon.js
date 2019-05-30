@@ -179,28 +179,27 @@ function genderStatus(shortFlag, tempBookFlag, nyushoKubunFlag, gaihakuNyuinFlag
  * @param {string} inputChar 
  * @param {float} value 
  */
-function handleInputNumber(inputChar, value, checkMaxMin) {
-  if (inputChar === '消去') {
-    value = '';
+function handleInputNumber(inputChar, value) {
+  let data = 0;
+  if (inputChar === 'del') {
+    data = 0;
   }
 
-  else if (inputChar === '.') {
-    if (!value) {
-      value = '0.'
-    } else {
-      if (!value.includes('.')) {
-        value = value + '.'
-      }
-    }
-  }
+  // else if (inputChar === '.') {
+  //   if (!value) {
+  //     value = '0.'
+  //   } else {
+  //     if (!value.includes('.')) {
+  //       value = value + '.'
+  //     }
+  //   }
+  // }
 
-  else {
-    if (!value) {
-      // if (inputChar !== '0')
-      value = inputChar
-    } else {
-      value = value + '' + inputChar
-    }
+  else if (!value) {
+    // if (inputChar !== '0')
+    data = inputChar
+  } else {
+    data = value + '' + inputChar
   }
 
   // let pointNum = parseFloat(value);
@@ -212,7 +211,7 @@ function handleInputNumber(inputChar, value, checkMaxMin) {
   //   }
   // }
 
-  return value;
+  return data;
 }
 
 /**

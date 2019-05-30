@@ -15,6 +15,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import { HomeContainer } from './components/home/homeContainer';
 import { OrderContainer } from './components/order/orderContainer';
+import { AboutContainer } from './components/about/aboutContainer';
 import { AccountContainer } from './components/account/accountContainer';
 
 //import registerServiceWorker from './registerServiceWorker';
@@ -66,6 +67,7 @@ render(
         <Switch>
           <Route exact path="/" component={HomeContainer} />
           <Route path="/dat-hang" component={OrderContainer} />
+          <Route path="/about" component={AboutContainer} />
           <Route path="/login" component={AccountContainer} />
 
           <Route component={() => (

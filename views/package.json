@@ -15,6 +15,7 @@
     "dom-helpers": "^3.4.0",
     "faker": "^4.1.0",
     "globalize": "^1.4.0",
+    "html2canvas": "^1.0.0-rc.3",
     "i": "^0.3.6",
     "install": "^0.12.2",
     "invariant": "^2.1.0",
