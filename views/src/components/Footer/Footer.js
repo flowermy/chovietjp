@@ -46,7 +46,7 @@ export default class Footer extends React.Component {
                     <List.Item>
                         <List.Item.Meta
                             avatar={<Avatar><Icon type="like" /></Avatar>}
-                            title={<span>{item.title}</span>}
+                            title={<a href="/about"><span>{item.title}</span></a>}
                         // description="Ant Design, a design language for background applications, is refined by Ant UED Team"
                         />
                     </List.Item>
@@ -62,7 +62,7 @@ export default class Footer extends React.Component {
                     <List.Item>
                         <List.Item.Meta
                             avatar={<Avatar><Icon type="like" /></Avatar>}
-                            title={<span>{item.title}</span>}
+                            title={<a href="/about"><span>{item.title}</span></a>}
                         // description="Ant Design, a design language for background applications, is refined by Ant UED Team"
                         />
                     </List.Item>
