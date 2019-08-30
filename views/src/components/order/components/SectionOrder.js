@@ -5,7 +5,12 @@ import { Row, Popconfirm, Divider, Table, Select, Button, Modal, Icon, InputNumb
 import html2canvas from 'html2canvas'
 
 import products from '../../../data/products'
-import { setValueLocalstorage, getValueLocalstorage, handleInputNumber } from '../../../common/function_common/functionCommon'
+import {
+    setValueLocalstorage,
+    getValueLocalstorage,
+    handleInputNumber,
+    extractIsDisplayProducts
+} from '../../../common/function_common/functionCommon'
 import Number from '../../../common/virtualkeyboard/number'
 
 
@@ -21,6 +26,7 @@ export default class SectionOrder extends React.Component {
             loading: false,
             number: 1,
             ordered: getValueLocalstorage('ordered') ? JSON.parse(getValueLocalstorage('ordered')) : [],
+            products: extractIsDisplayProducts(products)
 
         }
 
@@ -49,6 +55,7 @@ export default class SectionOrder extends React.Component {
             record: record,
             number: record.number
         })
+
     }
 
     handleOk() {
@@ -69,7 +76,7 @@ export default class SectionOrder extends React.Component {
 
         if (preData.length > 0) {
             for (let i in preData) {
-                if (preData[i].index === preDataRecord.index) {
+                if (preData[i].key === preDataRecord.key) {
                     preData[i].number = preNumber;
                     preDataRecord.number = preNumber;
                     break;
@@ -79,7 +86,8 @@ export default class SectionOrder extends React.Component {
 
         this.setState({
             ordered: preData,
-            record: preDataRecord
+            record: preDataRecord,
+            visible: false,
         })
 
         setValueLocalstorage('ordered', JSON.stringify(preData))
@@ -98,7 +106,7 @@ export default class SectionOrder extends React.Component {
         let check = true;
         if (preData.length > 0) {
             for (let i in preData) {
-                if (preData[i].index === value) {
+                if (preData[i].key === value) {
                     preData[i].number = preData[i].number + 1;
                     check = false;
                     break;
@@ -124,7 +132,7 @@ export default class SectionOrder extends React.Component {
         let preData = this.state.ordered;
 
         preData = preData.filter(function (item) {
-            return item.index !== record.index;
+            return item.key !== record.key;
         })
 
         this.setState({
@@ -186,11 +194,11 @@ export default class SectionOrder extends React.Component {
         })
     }
 
-    takeScreenshot() {
+    takeScreenshot = () => {
         let orderScreen = document.querySelector('#table-order');
 
         var today = new Date();
-        let todayToString = today.getFullYear() + (today.getMonth()+1) + today.getDate() + today.getHours() + today.getMinutes() + today.getSeconds();
+        let todayToString = today.getFullYear() + (today.getMonth() + 1) + today.getDate() + today.getHours() + today.getMinutes() + today.getSeconds();
         html2canvas(orderScreen, { useCORS: true }).then((canvas) => {
             // let imgData = canvas.toDataURL('image/png');
             // let saveImage = document.getElementById('testing').appendChild(canvas)
@@ -199,12 +207,12 @@ export default class SectionOrder extends React.Component {
             a.href = canvas.toDataURL("image/png").replace("image/png", "image/png");
             a.download = 'chovietjp-' + todayToString + '.jpg';
             a.click();
-            
+
         });
     }
 
     render() {
-
+        const { products } = this.state;
         let columns = [
             {
                 title: 'No',
@@ -216,6 +224,9 @@ export default class SectionOrder extends React.Component {
                 title: 'SP',
                 dataIndex: 'name',
                 className: 'col-table-order',
+                render: (text, record, index) => {
+                    return <span>{record.name}{record.is_dis === "2" ? <span> (Hết Hàng)</span> : ''}</span>
+                },
             },
             {
                 title: 'SL',
@@ -227,7 +238,7 @@ export default class SectionOrder extends React.Component {
             },
             {
                 title: 'Giá',
-                dataIndex: 'price',
+                dataIndex: 'retail_price',
                 className: 'col-table-order',
                 width: 40,
             },
@@ -261,42 +272,53 @@ export default class SectionOrder extends React.Component {
         if (predataOrdered.length > 0) {
             for (let i in predataOrdered) {
                 predataOrdered[i].key = parseInt(i) + 1;
-                predataOrdered[i].totalRow = predataOrdered[i].number * predataOrdered[i].price;
-                totalOrder = totalOrder + predataOrdered[i].totalRow;
+                if (predataOrdered[i].is_dis !== "2") {
+                    predataOrdered[i].totalRow = predataOrdered[i].number * predataOrdered[i].retail_price;
+                    totalOrder = totalOrder + predataOrdered[i].totalRow;
+                } else {
+                    predataOrdered[i].totalRow = 0;
+                }
+
             }
         }
 
         const children = [];
         for (let i = 0; i < products.length; i++) {
-            children.push(<Option key={products[i].index}>{products[i].name}</Option>);
+            children.push(<Option key={products[i].key}>{products[i].name}</Option>);
         }
 
         const headerTable = (
             <Row>
-                <Col span={10}><strong>Tổng: </strong>{totalOrder} y</Col>
-                <Col span={14} style={{ textAlign: 'right' }}>
-                    <Popconfirm
-                        title="Bạn Muốn Xóa Tất Cả Sản Phẩm ?"
-                        onConfirm={this.removeAll.bind(this)}
-                        // onCancel={cancel}
-                        okText="Có"
-                        cancelText="Không"
-                    >
-                        <Button>Xóa Hết</Button>
-                    </Popconfirm>
+                <Col span={24}>
+                    <p>
+                        <strong>Tổng Tiền Hàng: </strong>{totalOrder} y
+                        <span style={{ display: "block", fontStyle: "italic" }}>(Đơn Hàng Từ 14850y đc miễn phí ship kiện hàng dưới 25kg)</span>
+                        <span style={{ display: "block", fontStyle: "italic" }}>(Với khách hàng trong Hiroshima, bán kính từ SHOP từ 1~50km, SHOP lái xe giao hàng tận nơi, Vui lòng pm để biết PHÍ SHIP cụ thể)</span>
+                    </p>
+                    {
+                        totalOrder <= 14850
+                            ?
+                            <p>
+                                <strong>Phí Ship Thường:</strong> 800y
+                                <span style={{ display: "block", fontStyle: "italic" }}>(Áp dụng cho kiện hàng từ 1 đến dưới 25kg)</span>
+                            </p>
+                            :
+                            <p><strong>PHÍ SHIP:</strong> ĐƠN HÀNG ĐƯỢC MIỄN SHIP</p>
+                    }
+                    <p>
+                        <strong>Phí Thu Tiền Hộ(Daibiki): </strong>400 y
+                        <span style={{ display: "block", fontStyle: "italic" }}>(Chuyển Khoản Trước Không Mất Phí Này)</span>
+                    </p>
 
-                    <Button type="primary" style={{ marginLeft: '16px', float: 'right' }} onClick={this.takeScreenshot}>Lưu Đơn</Button>
                 </Col>
             </Row>
         )
 
-        const footerTable = (
-            <Row>
-                <Col span={12}><strong>Tổng: </strong>{totalOrder} y</Col>
-
-                <Button type="primary" style={{ marginLeft: '16px', float: 'right' }}>Lưu Đơn</Button>
-            </Row>
-        )
+        // const footerTable = (
+        //     <Row>
+        //         <Button type="primary" style={{ marginLeft: '16px', float: 'right' }}>Lưu Đơn</Button>
+        //     </Row>
+        // )
 
         return (
             <div className={'secsion-order, content-jp'}>
@@ -361,12 +383,30 @@ export default class SectionOrder extends React.Component {
                         >
                             {
                                 products.map((item, index) => {
-                                    return <Option key={index} value={item.index}>{item.name}</Option>
+                                    return <Option
+                                        key={index}
+                                        value={item.key}
+                                    >
+                                        {item.name}
+                                    </Option>
                                 })
                             }
                         </Select>
                     </Col>
 
+                </Row>
+                <Row style={{ marginBottom: '16px', textAlign: "right"}}>
+                        <Popconfirm
+                            title="Bạn Muốn Xóa Tất Cả Sản Phẩm ?"
+                            onConfirm={this.removeAll.bind(this)}
+                            // onCancel={cancel}
+                            okText="Có"
+                            cancelText="Không"
+                        >
+                            <Button>Xóa Hết</Button>
+                        </Popconfirm>
+
+                        <Button type="primary" style={{ marginLeft: '16px', float: 'right' }} onClick={this.takeScreenshot}>Lưu Đơn</Button>
                 </Row>
                 <Row>
                     <Table
@@ -389,7 +429,7 @@ export default class SectionOrder extends React.Component {
                         // }}
 
                         title={() => headerTable}
-                        footer={() => footerTable}
+                        // footer={() => footerTable}
 
                         id="table-order"
 
@@ -400,43 +440,60 @@ export default class SectionOrder extends React.Component {
                     visible={this.state.visible}
                     title={
                         (this.state.record && this.state.record.name ? this.state.record.name : 'ChoVietJP') + " " +
-                        (this.state.record && this.state.record.price ? this.state.record.price : '') + "y" + " SL: " +
+                        (this.state.record && this.state.record.retail_price ? this.state.record.retail_price : '') + "y" + " SL: " +
                         (this.state.record && this.state.record.number ? this.state.record.number : '')
                     }
                     onOk={this.handleOk}
                     onCancel={this.handleCancel}
-                    footer={
-                        [
-                            <Button key="preview" type="primary" onClick={this.preview.bind(this)}>
-                                <Icon type="arrow-up" />
-                            </Button>,
-                            <Button key="next" type="primary" onClick={this.next.bind(this)}>
-                                <Icon type="arrow-down" />
-                            </Button>,
-                            <Button key="close" onClick={this.handleCancel}>
-                                <Icon type="close" />
-                            </Button>,
-                        ]
-                    }
+                    // footer={
+                    //     [
+                    //         <Button key="preview" type="primary" onClick={this.preview.bind(this)}>
+                    //             <Icon type="arrow-up" />
+                    //         </Button>,
+                    //         <Button key="next" type="primary" onClick={this.next.bind(this)}>
+                    //             <Icon type="arrow-down" />
+                    //         </Button>,
+                    //         <Button key="close" onClick={this.handleCancel}>
+                    //             <Icon type="close" />
+                    //         </Button>,
+                    //     ]
+                    // }
+
+                    footer=""
                 >
                     <Row gutter={16} style={{ textAlign: 'center' }}>
-                        <span>
-                            <Popover placement="bottomRight" content={<Number handleInput={this.handleInputNoKeyBoard} />} trigger="click">
-                                <Button type='primary' onClick={this.resetNumberState}>Số Lượng</Button>
-                            </Popover>
-                            <InputNumber
-                                min={0}
-                                max={1000}
-                                defaultValue={this.state.record && this.state.record.number ? this.state.record.number : 1}
-                                value={this.state.number}
-                                disabled
-                                className="order-page-input"
+                        <Col span={12}>
+                            <img src={
+                                this.state.record && this.state.record.image
+                                    ? this.state.record.image
+                                    :
+                                    "http://chovietjp.com/0000.jpg"
+                            }
+                                style={{ maxWidth: '100%' }} />
+                        </Col>
+                        <Col span={12} style={{ textAlign: "center" }}>
+                            <Row>
+                                <Popover placement="bottomRight" content={<Number handleInput={this.handleInputNoKeyBoard} />} trigger="click">
+                                    <Button type='primary' onClick={this.resetNumberState}>SL</Button>
+                                </Popover>
+                                <InputNumber
+                                    min={0}
+                                    max={1000}
+                                    defaultValue={this.state.record && this.state.record.number ? this.state.record.number : 1}
+                                    value={this.state.number}
+                                    disabled
+                                    className="order-page-input"
 
-                            />
-                            <Button type="primary" onClick={this.order} >Đặt Hàng</Button>
-                        </span>
+                                />
+                            </Row>
 
-                        {/* <img src="https://cdn2.iconfinder.com/data/icons/startup-and-new-business-2/200/vector_399_11-512.png" style={{ maxWidth: '100%' }} /> */}
+                            <Row>
+                                <Button type="primary" onClick={this.order} style={{ marginTop: "16px" }}>Đặt Hàng</Button>
+                            </Row>
+
+                        </Col>
+
+                        {/*  */}
                     </Row>
                 </Modal>
             </div>

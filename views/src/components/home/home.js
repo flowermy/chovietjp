@@ -82,7 +82,7 @@ export default class Home extends Component {
     let check = true;
     if (preData.length > 0) {
       for (let i in preData) {
-        if (preData[i].index === record.index) {
+        if (preData[i].key === record.key) {
           preData[i].number === record.number;
           check = false;
           break;
@@ -113,7 +113,7 @@ export default class Home extends Component {
             <img src={banner} style={{ width: '100%' }} />
           </div>
         </Row>
-        <Row className='content-jp'>
+        {/* <Row className='content-jp'>
           <Divider orientation="left">Sản Phẩm Hot</Divider>
           <Carousel autoplay>
             <div>
@@ -183,7 +183,7 @@ export default class Home extends Component {
               </Row>
             </div>
           </Carousel>
-        </Row>
+        </Row> */}
 
         <SectionHomeCate />
         <SectionOrder

@@ -1,7 +1,10 @@
 import React from 'react'
 
-import { Row, Col, Divider, Table, Badge, Button, Modal, Icon, InputNumber } from 'antd'
+import { Row, Divider, Table, Button, Modal, Icon, Col, InputNumber, Popover } from 'antd'
 import products from '../../../data/products'
+import { extractIsDisplayProducts, handleInputNumber } from '../../../common/function_common/functionCommon';
+
+import Number from '../../../common/virtualkeyboard/number'
 
 export default class SectionOrder extends React.Component {
 
@@ -28,9 +31,10 @@ export default class SectionOrder extends React.Component {
     }
 
     onRowTableClick(record) {
+        record.number = 1;
         this.setState({
             visible: true,
-            record: record
+            record: record,
         })
     }
 
@@ -50,6 +54,10 @@ export default class SectionOrder extends React.Component {
         preData.number = this.state.number;
 
         this.props.order(preData)
+
+        this.setState({
+            visible: false
+        })
     }
 
     onChangeNumber(value) {
@@ -58,39 +66,66 @@ export default class SectionOrder extends React.Component {
         })
     }
 
-    preview(){
-        if(this.state.record.index > 1){
+    preview() {
+        if (this.state.record.key > 1) {
             this.setState({
-                record: products[this.state.record.index - 2],
+                record: products[this.state.record.key - 2],
                 number: 1
             })
         }
     }
 
-    next(){
-        if(this.state.record.index < products.length){
+    next() {
+        if (this.state.record.key < products.length) {
             this.setState({
-                record: products[this.state.record.index],
+                record: products[this.state.record.key],
                 number: 1
             })
         }
     }
+
+    resetNumberState = () => {
+        this.setState({
+            number: 0
+        })
+    }
+
+    handleInputNoKeyBoard = (number) => {
+        this.setState({
+            number: handleInputNumber(number, this.state.number)
+        })
+    }
+
 
     render() {
-
         let columns = [
             {
-                title: 'Stt',
-                dataIndex: 'index',
-                width: 30,
+                title: 'SKU',
+                dataIndex: 'sku',
+                key: 'sku',
+                render: (text, record, index) => {
+                    return <img
+                        alt={record.sku}
+                        src={record.image ? record.image : "http://chovietjp.com/0000.jpg"}
+                        style={{ maxHeight: "45px", maxWidth: "45px" }}
+                    />
+                },
+                width: 60,
+                align: "center",
+                className: "so-image",
             },
             {
                 title: 'Tên Sản Phẩm',
                 dataIndex: 'name',
+                key: 'name',
+                render: (text, record, index) => {
+                    return <span>{record.name}{record.is_dis === "2" ? <span> (Hết Hàng)</span> : ''}</span>
+                },
             },
             {
                 title: 'Giá',
-                dataIndex: 'price',
+                dataIndex: 'retail_price',
+                key: 'retail_price',
                 width: 60,
             },
             {
@@ -109,9 +144,9 @@ export default class SectionOrder extends React.Component {
                     components={this.components}
 
                     columns={columns}
-                    dataSource={products}
+                    dataSource={extractIsDisplayProducts(products)}
 
-                    pagination={{ pageSize: 100 }}
+                    pagination={{ pageSize: 300 }}
 
                     onRow={(record, rowIndex) => {
                         return {
@@ -128,8 +163,8 @@ export default class SectionOrder extends React.Component {
                 <Modal
                     visible={this.state.visible}
                     title={
-                        (this.state.record && this.state.record.name ? this.state.record.name : 'ChoVietJP') + " " + 
-                        (this.state.record && this.state.record.price ? this.state.record.price : '') + "y"}
+                        (this.state.record && this.state.record.name ? this.state.record.name : 'ChoVietJP') + " " +
+                        (this.state.record && this.state.record.retail_price ? this.state.record.retail_price : '') + "y"}
                     onOk={this.handleOk}
                     onCancel={this.handleCancel}
                     footer={
@@ -146,19 +181,39 @@ export default class SectionOrder extends React.Component {
                         ]
                     }
                 >
-                    <Row gutter={16} style={{textAlign: 'center'}}>
-                        <span>
-                            {/* <Button>Số Lượng</Button>
-                            <InputNumber
-                                min={1}
-                                max={100}
-                                defaultValue={1}
-                                onChange={this.onChangeNumber}
-                            /> */}
-                            <Button type="primary" onClick={this.order} >Đặt Hàng</Button>
-                        </span>
+                    <Row gutter={16} style={{ textAlign: 'center' }}>
+                        <Col span={12}>
+                            <img src={
+                                this.state.record && this.state.record.image
+                                    ? this.state.record.image
+                                    :
+                                    "http://chovietjp.com/0000.jpg"
+                            }
+                                style={{ maxWidth: '100%' }} />
+                        </Col>
+                        <Col span={12} style={{ textAlign: "center" }}>
+                            <Row>
+                                <Popover placement="bottomRight" content={<Number handleInput={this.handleInputNoKeyBoard} />} trigger="click">
+                                    <Button type='primary' onClick={this.resetNumberState}>SL</Button>
+                                </Popover>
+                                <InputNumber
+                                    min={0}
+                                    max={1000}
+                                    defaultValue={this.state.record && this.state.record.number ? this.state.record.number : 1}
+                                    value={this.state.number}
+                                    disabled
+                                    className="order-page-input"
 
-                        {/* <img src="https://cdn2.iconfinder.com/data/icons/startup-and-new-business-2/200/vector_399_11-512.png" style={{ maxWidth: '100%' }} /> */}
+                                />
+                            </Row>
+
+                            <Row>
+                                <Button type="primary" onClick={this.order} style={{ marginTop: "16px" }}>Đặt Hàng</Button>
+                            </Row>
+
+                        </Col>
+
+                        {/*  */}
                     </Row>
                 </Modal>
             </Row>

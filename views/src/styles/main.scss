@@ -1,8 +1,12 @@
 body {
     margin: 0;
-    padding: 0;
+    // padding: 0 !important;
     font-family: sans-serif;
     background: #fff;
+
+    height: 100%;
+    // overflow-x: hidden !important;
+    position: relative;
 }
 
 .menuBar {
@@ -243,4 +247,8 @@ body {
     text-align: center;
     // background: #ffffff;
     overflow: hidden;
+}
+
+.so-image{
+    padding: 0px !important;
 }

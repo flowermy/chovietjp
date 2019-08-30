@@ -373,6 +373,11 @@ function getValueLocalstorage(fieldName) {
   return null;
 }
 
+function extractIsDisplayProducts(products) {
+  return products.filter(item => item.is_dis > 0)
+
+}
+
 export {
   getDateInMonth,
   getHolidayInMonth,
@@ -385,5 +390,6 @@ export {
   extractRangeVital,
   handleSpo2,
   setValueLocalstorage,
-  getValueLocalstorage
+  getValueLocalstorage,
+  extractIsDisplayProducts
 }
