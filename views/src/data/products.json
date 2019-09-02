@@ -211,7 +211,7 @@
 	},
 	{
 		"key": "8",
-		"is_dis": "0",
+		"is_dis": "1",
 		"name": "Nầm Heo",
 		"category_code": "001_THIT_CA",
 		"description": "",
@@ -241,7 +241,7 @@
 	},
 	{
 		"key": "9",
-		"is_dis": "0",
+		"is_dis": "1",
 		"name": "Vịt Thái ~1.7kg",
 		"category_code": "001_THIT_CA",
 		"description": "",
@@ -273,8 +273,8 @@
 		"key": "10",
 		"is_dis": "1",
 		"name": "Giò Sống",
-		"category_code": " Mọc",
-		"description": "001_THIT_CA",
+		"category_code": "001_THIT_CA",
+		"description": "Mọc",
 		"brand": "",
 		"Tags": "",
 		"pro_1": "",
@@ -284,20 +284,20 @@
 		"pro_3": "",
 		"pro_value_3": "",
 		"name_version": "",
-		"sku": "Giò Sống",
+		"sku": "TT-0034",
 		"Barcode": " Mọc",
-		"vol": "TT-0034",
+		"vol": "0.5kg",
 		"vol_unit": "PVN353",
-		"image": "0.500",
+		"image": "https://sapo.dktcdn.net/100/051/223/variants/315493d9-3c01-4677-b34d-955d5ae80499.jpg",
 		"unit": "kg",
-		"is_tax": "https://sapo.dktcdn.net/100/051/223/variants/315493d9-3c01-4677-b34d-955d5ae80499.jpg",
+		"is_tax": "",
 		"inventory_ori": "kg",
 		"inventory_min": "Có",
 		"inventory_max": "3",
 		"inventory_add": "5",
-		"wholesale_price": "15",
+		"wholesale_price": "1050",
 		"entry_price": "",
-		"retail_price": "800"
+		"retail_price": "1050"
 	},
 	{
 		"key": "11",
@@ -451,7 +451,7 @@
 	},
 	{
 		"key": "16",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Cá Rô Phi",
 		"category_code": "001_THIT_CA",
 		"description": "",
@@ -541,7 +541,7 @@
 	},
 	{
 		"key": "19",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Lòng Non",
 		"category_code": "001_THIT_CA",
 		"description": "",
@@ -571,7 +571,7 @@
 	},
 	{
 		"key": "20",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Tràng Gà Trứng Non",
 		"category_code": "001_THIT_CA",
 		"description": "",
@@ -631,7 +631,7 @@
 	},
 	{
 		"key": "22",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Vịt Xiêm ~1.7Kg",
 		"category_code": "001_THIT_CA",
 		"description": "",
@@ -871,7 +871,7 @@
 	},
 	{
 		"key": "30",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Cuống Họng",
 		"category_code": "001_THIT_CA",
 		"description": "",
@@ -991,7 +991,7 @@
 	},
 	{
 		"key": "34",
-		"is_dis": "2",
+		"is_dis": "0",
 		"name": "Diềm Vách Heo",
 		"category_code": "001_THIT_CA",
 		"description": "hiro",
@@ -1081,7 +1081,7 @@
 	},
 	{
 		"key": "37",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Gan Heo",
 		"category_code": "001_THIT_CA",
 		"description": "tokyo",
@@ -1111,7 +1111,7 @@
 	},
 	{
 		"key": "38",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Gà Mềm",
 		"category_code": " Non",
 		"description": "001_THIT_CA",
@@ -1201,7 +1201,7 @@
 	},
 	{
 		"key": "41",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Chân Gà",
 		"category_code": "001_THIT_CA",
 		"description": "Tokyo",
@@ -1441,7 +1441,7 @@
 	},
 	{
 		"key": "49",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Nem Chua",
 		"category_code": "002_DO_AN_SAN",
 		"description": "",
@@ -1681,7 +1681,7 @@
 	},
 	{
 		"key": "57",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Chả Quế",
 		"category_code": "002_DO_AN_SAN",
 		"description": "",
@@ -1741,7 +1741,7 @@
 	},
 	{
 		"key": "59",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Bầu Quả Tươi",
 		"category_code": "003_RAU_QUA",
 		"description": "",
@@ -1951,7 +1951,7 @@
 	},
 	{
 		"key": "66",
-		"is_dis": "2",
+		"is_dis": "0",
 		"name": "Mận Tươi",
 		"category_code": "003_RAU_QUA",
 		"description": "",
@@ -1981,7 +1981,7 @@
 	},
 	{
 		"key": "67",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Cà Pháo",
 		"category_code": "003_RAU_QUA",
 		"description": "",
@@ -2007,7 +2007,7 @@
 		"inventory_add": "",
 		"wholesale_price": "680",
 		"entry_price": "0",
-		"retail_price": "680"
+		"retail_price": "520"
 	},
 	{
 		"key": "68",
@@ -2041,7 +2041,7 @@
 	},
 	{
 		"key": "69",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Rau Muống",
 		"category_code": "003_RAU_QUA",
 		"description": "",
@@ -2101,7 +2101,7 @@
 	},
 	{
 		"key": "71",
-		"is_dis": "2",
+		"is_dis": "0",
 		"name": "Chanh Leo Túi",
 		"category_code": "003_RAU_QUA",
 		"description": "",
@@ -2131,7 +2131,7 @@
 	},
 	{
 		"key": "72",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Muop Tuoi",
 		"category_code": "003_RAU_QUA",
 		"description": "",
@@ -2191,7 +2191,7 @@
 	},
 	{
 		"key": "74",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Rau Mùi - Ngò Rí",
 		"category_code": "003_RAU_QUA",
 		"description": "",
@@ -2281,7 +2281,7 @@
 	},
 	{
 		"key": "77",
-		"is_dis": "1",
+		"is_dis": "2",
 		"name": "Dừa Già",
 		"category_code": "003_RAU_QUA",
 		"description": "",
@@ -2341,7 +2341,7 @@
 	},
 	{
 		"key": "79",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Sả Tươi",
 		"category_code": "003_RAU_QUA",
 		"description": "",
@@ -2371,7 +2371,7 @@
 	},
 	{
 		"key": "80",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Xoài Chua Giòn",
 		"category_code": "003_RAU_QUA",
 		"description": "cosco",
@@ -2397,11 +2397,11 @@
 		"inventory_add": "",
 		"wholesale_price": "1100",
 		"entry_price": "1100",
-		"retail_price": "1500"
+		"retail_price": "1480"
 	},
 	{
 		"key": "81",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Rau Răm",
 		"category_code": "003_RAU_QUA",
 		"description": "b dung",
@@ -2461,7 +2461,7 @@
 	},
 	{
 		"key": "83",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Hành Tím Củ",
 		"category_code": "003_RAU_QUA",
 		"description": "B dung",
@@ -2521,7 +2521,7 @@
 	},
 	{
 		"key": "85",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Húng Quế",
 		"category_code": "003_RAU_QUA",
 		"description": "V.Q",
@@ -2581,7 +2581,7 @@
 	},
 	{
 		"key": "87",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Mùi Tàu Ngò Gai",
 		"category_code": "003_RAU_QUA",
 		"description": "",
@@ -3001,7 +3001,7 @@
 	},
 	{
 		"key": "101",
-		"is_dis": "2",
+		"is_dis": "0",
 		"name": "Mít Tươi Túi",
 		"category_code": "004_DO_UONG_KEO",
 		"description": "",
@@ -3481,7 +3481,7 @@
 	},
 	{
 		"key": "117",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Cafe G7 3In1",
 		"category_code": "004_DO_UONG_KEO",
 		"description": "V.Q",
@@ -3511,7 +3511,7 @@
 	},
 	{
 		"key": "118",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Mít Sấy",
 		"category_code": "004_DO_UONG_KEO",
 		"description": "V.Q",
@@ -3811,7 +3811,7 @@
 	},
 	{
 		"key": "128",
-		"is_dis": "2",
+		"is_dis": "0",
 		"name": "Nước Mắm Hạnh Phúc",
 		"category_code": "005_GIA_VI_VIET",
 		"description": "",
@@ -3871,7 +3871,7 @@
 	},
 	{
 		"key": "130",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Bột Nghệ Gói",
 		"category_code": "005_GIA_VI_VIET",
 		"description": "",
@@ -3901,7 +3901,7 @@
 	},
 	{
 		"key": "131",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Bột Điều Gói",
 		"category_code": "005_GIA_VI_VIET",
 		"description": "",
@@ -4081,7 +4081,7 @@
 	},
 	{
 		"key": "137",
-		"is_dis": "2",
+		"is_dis": "0",
 		"name": "Hành Phi",
 		"category_code": "005_GIA_VI_VIET",
 		"description": "",
@@ -4381,7 +4381,7 @@
 	},
 	{
 		"key": "147",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Ớt Bột Gói",
 		"category_code": "005_GIA_VI_VIET",
 		"description": "Gia Vi Ot Bột",
@@ -4561,7 +4561,7 @@
 	},
 	{
 		"key": "153",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Mắm Nêm Xay",
 		"category_code": "005_GIA_VI_VIET",
 		"description": "",
@@ -4771,7 +4771,7 @@
 	},
 	{
 		"key": "160",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Bột Canh Vifon",
 		"category_code": "005_GIA_VI_VIET",
 		"description": "",
@@ -5131,7 +5131,7 @@
 	},
 	{
 		"key": "172",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Hạt Tiêu",
 		"category_code": "005_GIA_VI_VIET",
 		"description": "",
@@ -5371,7 +5371,7 @@
 	},
 	{
 		"key": "180",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Bột Canh Hải Châu",
 		"category_code": "005_GIA_VI_VIET",
 		"description": "V.Q",
@@ -5431,7 +5431,7 @@
 	},
 	{
 		"key": "182",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Mắm Tôm Bắc",
 		"category_code": "005_GIA_VI_VIET",
 		"description": "V.Q",
@@ -5491,7 +5491,7 @@
 	},
 	{
 		"key": "184",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Nước Magi Nắp Vàng",
 		"category_code": "005_GIA_VI_VIET",
 		"description": "V.Q",
@@ -5551,7 +5551,7 @@
 	},
 	{
 		"key": "186",
-		"is_dis": "2",
+		"is_dis": "0",
 		"name": "Viên Gia Vị Phở Gà",
 		"category_code": "005_GIA_VI_VIET",
 		"description": "B dũng",
@@ -5671,7 +5671,7 @@
 	},
 	{
 		"key": "190",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Omachi Chua Cay",
 		"category_code": "006_DO_KHO",
 		"description": "",
@@ -5701,7 +5701,7 @@
 	},
 	{
 		"key": "191",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Hạt Sen",
 		"category_code": "006_DO_KHO",
 		"description": "",
@@ -5851,7 +5851,7 @@
 	},
 	{
 		"key": "196",
-		"is_dis": "2",
+		"is_dis": "0",
 		"name": "Phở Gà Đệ Nhất /Thùng",
 		"category_code": "006_DO_KHO",
 		"description": "",
@@ -6211,7 +6211,7 @@
 	},
 	{
 		"key": "208",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Bột Gạo",
 		"category_code": "006_DO_KHO",
 		"description": "",
@@ -6241,7 +6241,7 @@
 	},
 	{
 		"key": "209",
-		"is_dis": "2",
+		"is_dis": "0",
 		"name": "Bánh Phở 150g",
 		"category_code": "006_DO_KHO",
 		"description": "",
@@ -6361,7 +6361,7 @@
 	},
 	{
 		"key": "213",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Gạo Nếp 1kg",
 		"category_code": "006_DO_KHO",
 		"description": "",
@@ -6601,7 +6601,7 @@
 	},
 	{
 		"key": "221",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Gạo 10Kg",
 		"category_code": "006_DO_KHO",
 		"description": "",
@@ -6751,7 +6751,7 @@
 	},
 	{
 		"key": "226",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Bún Tươi",
 		"category_code": "006_DO_KHO",
 		"description": "",
@@ -6841,7 +6841,7 @@
 	},
 	{
 		"key": "229",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Bột Bánh Xèo",
 		"category_code": "006_DO_KHO",
 		"description": "",
@@ -6961,7 +6961,7 @@
 	},
 	{
 		"key": "233",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Bột Năng",
 		"category_code": "006_DO_KHO",
 		"description": "V.Q",
@@ -6991,7 +6991,7 @@
 	},
 	{
 		"key": "234",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Bột Nếp",
 		"category_code": "006_DO_KHO",
 		"description": "V.Q",
