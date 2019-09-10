@@ -1711,7 +1711,7 @@
 	},
 	{
 		"key": "58",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Trứng Gà Lộn",
 		"category_code": "002_DO_AN_SAN",
 		"description": "",
@@ -2011,7 +2011,7 @@
 	},
 	{
 		"key": "68",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Sấu Tươi",
 		"category_code": "003_RAU_QUA",
 		"description": "",
@@ -2551,7 +2551,7 @@
 	},
 	{
 		"key": "86",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Lá Lốt",
 		"category_code": "003_RAU_QUA",
 		"description": "VQ",
@@ -4531,7 +4531,7 @@
 	},
 	{
 		"key": "152",
-		"is_dis": "2",
+		"is_dis": "1",
 		"name": "Nước Tương Chinsu",
 		"category_code": "005_GIA_VI_VIET",
 		"description": "",
