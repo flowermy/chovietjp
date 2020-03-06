@@ -958,7 +958,7 @@
 		"inventory_point": "",
 		"wholesale_price": "900",
 		"entry_price": "900",
-		"retail_price": "1480"
+		"retail_price": "1580"
 	},
 	{
 		"key": "32",
@@ -5544,9 +5544,9 @@
 		"inventory_max": "0",
 		"inventory_add": "0",
 		"inventory_point": "",
-		"wholesale_price": "2180",
-		"entry_price": "1800",
-		"retail_price": "2180"
+		"wholesale_price": "2280",
+		"entry_price": "2280",
+		"retail_price": "2280"
 	},
 	{
 		"key": "180",
