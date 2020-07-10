@@ -292,11 +292,11 @@ export default class SectionOrder extends React.Component {
                 <Col span={24}>
                     <p>
                         <strong>Tổng Tiền Hàng: </strong>{totalOrder} y
-                        <span style={{ display: "block", fontStyle: "italic" }}>(Đơn Hàng Từ 14850y đc miễn phí ship kiện hàng dưới 25kg)</span>
+                        <span style={{ display: "block", fontStyle: "italic" }}>(Đơn Hàng Từ 1man2 đc miễn phí ship kiện hàng dưới 25kg)</span>
                         <span style={{ display: "block", fontStyle: "italic" }}>(Với khách hàng trong Hiroshima, bán kính từ SHOP từ 1~50km, SHOP lái xe giao hàng tận nơi, Vui lòng pm để biết PHÍ SHIP cụ thể)</span>
                     </p>
                     {
-                        totalOrder <= 14850
+                        totalOrder <= 12000
                             ?
                             <p>
                                 <strong>Phí Ship Thường:</strong> 800y
@@ -306,6 +306,8 @@ export default class SectionOrder extends React.Component {
                             <p><strong>PHÍ SHIP:</strong> ĐƠN HÀNG ĐƯỢC MIỄN SHIP</p>
                     }
                     <p>
+                        <strong>Phí Thu Lanh Nếu Có: </strong>600 y
+                        <span style={{ display: "block", fontStyle: "italic" }}>(Các tỉnh nhận hàng trong 1 đến 2 ngày lựa chọn SHIP Thùng Xốp Đảm Bảo ko mất phi này)</span>
                         <strong>Phí Thu Tiền Hộ(Daibiki): </strong>400 y
                         <span style={{ display: "block", fontStyle: "italic" }}>(Chuyển Khoản Trước Không Mất Phí Này)</span>
                     </p>
@@ -395,18 +397,18 @@ export default class SectionOrder extends React.Component {
                     </Col>
 
                 </Row>
-                <Row style={{ marginBottom: '16px', textAlign: "right"}}>
-                        <Popconfirm
-                            title="Bạn Muốn Xóa Tất Cả Sản Phẩm ?"
-                            onConfirm={this.removeAll.bind(this)}
-                            // onCancel={cancel}
-                            okText="Có"
-                            cancelText="Không"
-                        >
-                            <Button>Xóa Hết</Button>
-                        </Popconfirm>
+                <Row style={{ marginBottom: '16px', textAlign: "right" }}>
+                    <Popconfirm
+                        title="Bạn Muốn Xóa Tất Cả Sản Phẩm ?"
+                        onConfirm={this.removeAll.bind(this)}
+                        // onCancel={cancel}
+                        okText="Có"
+                        cancelText="Không"
+                    >
+                        <Button>Xóa Hết</Button>
+                    </Popconfirm>
 
-                        <Button type="primary" style={{ marginLeft: '16px', float: 'right' }} onClick={this.takeScreenshot}>Lưu Đơn</Button>
+                    <Button type="primary" style={{ marginLeft: '16px', float: 'right' }} onClick={this.takeScreenshot}>Lưu Đơn</Button>
                 </Row>
                 <Row>
                     <Table
