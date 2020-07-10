@@ -25,11 +25,8 @@
 		"inventory_min": "-76",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "400"
+		"retail_price": "400"
 	},
 	{
 		"key": "2",
@@ -57,11 +54,8 @@
 		"inventory_min": "-5",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "600"
+		"retail_price": "600"
 	},
 	{
 		"key": "3",
@@ -89,11 +83,8 @@
 		"inventory_min": "-35",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "800"
+		"retail_price": "800"
 	},
 	{
 		"key": "4",
@@ -121,11 +112,8 @@
 		"inventory_min": "23.54",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1150"
+		"entry_price": "820",
+		"retail_price": "1150"
 	},
 	{
 		"key": "5",
@@ -153,11 +141,8 @@
 		"inventory_min": "-2.4",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1120"
+		"entry_price": "720",
+		"retail_price": "1120"
 	},
 	{
 		"key": "6",
@@ -185,11 +170,8 @@
 		"inventory_min": "33.5",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1480"
+		"entry_price": "900",
+		"retail_price": "1480"
 	},
 	{
 		"key": "7",
@@ -217,11 +199,8 @@
 		"inventory_min": "8.95",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "980"
+		"entry_price": "700",
+		"retail_price": "980"
 	},
 	{
 		"key": "8",
@@ -249,11 +228,8 @@
 		"inventory_min": "52.5",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "650"
+		"retail_price": "650"
 	},
 	{
 		"key": "9",
@@ -281,11 +257,8 @@
 		"inventory_min": "5",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "680"
+		"retail_price": "680"
 	},
 	{
 		"key": "10",
@@ -313,11 +286,8 @@
 		"inventory_min": "19.82",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1500"
+		"entry_price": "1000",
+		"retail_price": "1500"
 	},
 	{
 		"key": "11",
@@ -345,11 +315,8 @@
 		"inventory_min": "0.02",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "920"
+		"retail_price": "920"
 	},
 	{
 		"key": "12",
@@ -377,11 +344,8 @@
 		"inventory_min": "4.2",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "980"
+		"entry_price": "280",
+		"retail_price": "980"
 	},
 	{
 		"key": "13",
@@ -409,11 +373,8 @@
 		"inventory_min": "8.1",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1250"
+		"retail_price": "1250"
 	},
 	{
 		"key": "14",
@@ -441,11 +402,8 @@
 		"inventory_min": "18",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "180"
+		"entry_price": "100",
+		"retail_price": "180"
 	},
 	{
 		"key": "15",
@@ -473,11 +431,8 @@
 		"inventory_min": "30.46",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1180"
+		"entry_price": "760",
+		"retail_price": "1180"
 	},
 	{
 		"key": "16",
@@ -505,11 +460,8 @@
 		"inventory_min": "180",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "215"
+		"retail_price": "215"
 	},
 	{
 		"key": "17",
@@ -537,11 +489,8 @@
 		"inventory_min": "18",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "580"
+		"retail_price": "580"
 	},
 	{
 		"key": "18",
@@ -569,11 +518,8 @@
 		"inventory_min": "13",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "800"
+		"entry_price": "400",
+		"retail_price": "800"
 	},
 	{
 		"key": "19",
@@ -601,11 +547,8 @@
 		"inventory_min": "26.31",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "680"
+		"entry_price": "400",
+		"retail_price": "680"
 	},
 	{
 		"key": "20",
@@ -633,11 +576,8 @@
 		"inventory_min": "6",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "210"
+		"entry_price": "150",
+		"retail_price": "210"
 	},
 	{
 		"key": "21",
@@ -665,11 +605,8 @@
 		"inventory_min": "2",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "850"
+		"entry_price": "550",
+		"retail_price": "850"
 	},
 	{
 		"key": "22",
@@ -697,11 +634,8 @@
 		"inventory_min": "-7",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1900"
+		"retail_price": "1900"
 	},
 	{
 		"key": "23",
@@ -729,11 +663,8 @@
 		"inventory_min": "6.5",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1800"
+		"retail_price": "1800"
 	},
 	{
 		"key": "24",
@@ -761,11 +692,8 @@
 		"inventory_min": "53",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "300"
+		"entry_price": "150",
+		"retail_price": "300"
 	},
 	{
 		"key": "25",
@@ -793,11 +721,8 @@
 		"inventory_min": "25",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "750"
+		"entry_price": "500",
+		"retail_price": "750"
 	},
 	{
 		"key": "26",
@@ -825,11 +750,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "680"
+		"entry_price": "490",
+		"retail_price": "680"
 	},
 	{
 		"key": "27",
@@ -857,11 +779,8 @@
 		"inventory_min": "9",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "680"
+		"entry_price": "480",
+		"retail_price": "680"
 	},
 	{
 		"key": "28",
@@ -889,11 +808,8 @@
 		"inventory_min": "4.42",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1680"
+		"retail_price": "1680"
 	},
 	{
 		"key": "29",
@@ -921,11 +837,8 @@
 		"inventory_min": "13",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "280"
+		"entry_price": "100",
+		"retail_price": "280"
 	},
 	{
 		"key": "30",
@@ -953,11 +866,8 @@
 		"inventory_min": "8",
 		"inventory_max": "5",
 		"inventory_add": "15",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1050"
+		"retail_price": "1050"
 	},
 	{
 		"key": "31",
@@ -985,11 +895,8 @@
 		"inventory_min": "11",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1350"
+		"retail_price": "1350"
 	},
 	{
 		"key": "32",
@@ -1017,11 +924,8 @@
 		"inventory_min": "15.57",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1450"
+		"entry_price": "210",
+		"retail_price": "1450"
 	},
 	{
 		"key": "33",
@@ -1049,11 +953,8 @@
 		"inventory_min": "17.99",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "980"
+		"entry_price": "300",
+		"retail_price": "980"
 	},
 	{
 		"key": "34",
@@ -1081,11 +982,8 @@
 		"inventory_min": "15",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "340"
+		"entry_price": "220",
+		"retail_price": "340"
 	},
 	{
 		"key": "35",
@@ -1113,11 +1011,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1200"
+		"retail_price": "1200"
 	},
 	{
 		"key": "36",
@@ -1145,11 +1040,8 @@
 		"inventory_min": "43",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "280"
+		"entry_price": "150",
+		"retail_price": "280"
 	},
 	{
 		"key": "37",
@@ -1177,11 +1069,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1200"
+		"retail_price": "1200"
 	},
 	{
 		"key": "38",
@@ -1209,11 +1098,8 @@
 		"inventory_min": "7",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1100"
+		"retail_price": "1100"
 	},
 	{
 		"key": "39",
@@ -1241,11 +1127,8 @@
 		"inventory_min": "10.75",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1480"
+		"retail_price": "1480"
 	},
 	{
 		"key": "40",
@@ -1273,11 +1156,8 @@
 		"inventory_min": "23",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "650"
+		"entry_price": "480",
+		"retail_price": "650"
 	},
 	{
 		"key": "41",
@@ -1305,11 +1185,8 @@
 		"inventory_min": "10",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1200"
+		"retail_price": "1200"
 	},
 	{
 		"key": "42",
@@ -1337,11 +1214,8 @@
 		"inventory_min": "17",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "380"
+		"entry_price": "300",
+		"retail_price": "380"
 	},
 	{
 		"key": "43",
@@ -1369,11 +1243,8 @@
 		"inventory_min": "2",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "250"
+		"entry_price": "160",
+		"retail_price": "250"
 	},
 	{
 		"key": "44",
@@ -1401,11 +1272,8 @@
 		"inventory_min": "1.26",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1780"
+		"retail_price": "1780"
 	},
 	{
 		"key": "45",
@@ -1433,11 +1301,8 @@
 		"inventory_min": "11.93",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "880"
+		"entry_price": "880",
+		"retail_price": "880"
 	},
 	{
 		"key": "46",
@@ -1465,11 +1330,8 @@
 		"inventory_min": "17.76",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "820"
+		"retail_price": "820"
 	},
 	{
 		"key": "47",
@@ -1497,11 +1359,8 @@
 		"inventory_min": "3",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "820"
+		"entry_price": "520",
+		"retail_price": "820"
 	},
 	{
 		"key": "48",
@@ -1529,11 +1388,8 @@
 		"inventory_min": "6",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "500"
+		"retail_price": "500"
 	},
 	{
 		"key": "49",
@@ -1561,11 +1417,8 @@
 		"inventory_min": "2",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1000"
+		"retail_price": "1000"
 	},
 	{
 		"key": "50",
@@ -1593,11 +1446,8 @@
 		"inventory_min": "37",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "230"
+		"entry_price": "120",
+		"retail_price": "230"
 	},
 	{
 		"key": "51",
@@ -1625,11 +1475,8 @@
 		"inventory_min": "6",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1350"
+		"entry_price": "680",
+		"retail_price": "1350"
 	},
 	{
 		"key": "52",
@@ -1657,11 +1504,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "600"
+		"entry_price": "300",
+		"retail_price": "600"
 	},
 	{
 		"key": "53",
@@ -1689,11 +1533,8 @@
 		"inventory_min": "13",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1350"
+		"retail_price": "1350"
 	},
 	{
 		"key": "54",
@@ -1721,11 +1562,8 @@
 		"inventory_min": "-3",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1780"
+		"retail_price": "1780"
 	},
 	{
 		"key": "55",
@@ -1753,11 +1591,8 @@
 		"inventory_min": "30",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1480"
+		"retail_price": "1480"
 	},
 	{
 		"key": "56",
@@ -1785,11 +1620,8 @@
 		"inventory_min": "9",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "250"
+		"entry_price": "100",
+		"retail_price": "250"
 	},
 	{
 		"key": "57",
@@ -1817,11 +1649,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1200"
+		"entry_price": "600",
+		"retail_price": "1200"
 	},
 	{
 		"key": "58",
@@ -1849,11 +1678,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "780"
+		"entry_price": "400",
+		"retail_price": "780"
 	},
 	{
 		"key": "59",
@@ -1881,11 +1707,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1300"
+		"retail_price": "1300"
 	},
 	{
 		"key": "60",
@@ -1913,11 +1736,8 @@
 		"inventory_min": "20",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "280"
+		"retail_price": "280"
 	},
 	{
 		"key": "61",
@@ -1945,11 +1765,8 @@
 		"inventory_min": "21",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1545"
+		"retail_price": "1545"
 	},
 	{
 		"key": "62",
@@ -1977,11 +1794,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "860"
+		"entry_price": "600",
+		"retail_price": "860"
 	},
 	{
 		"key": "63",
@@ -2009,11 +1823,8 @@
 		"inventory_min": "-3",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1050"
+		"retail_price": "1050"
 	},
 	{
 		"key": "64",
@@ -2041,11 +1852,8 @@
 		"inventory_min": "37",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1050"
+		"retail_price": "1050"
 	},
 	{
 		"key": "65",
@@ -2073,11 +1881,8 @@
 		"inventory_min": "-3",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1050"
+		"entry_price": "880",
+		"retail_price": "1050"
 	},
 	{
 		"key": "66",
@@ -2105,11 +1910,8 @@
 		"inventory_min": "16",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "480"
+		"retail_price": "480"
 	},
 	{
 		"key": "67",
@@ -2137,11 +1939,8 @@
 		"inventory_min": "5",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1380"
+		"retail_price": "1380"
 	},
 	{
 		"key": "68",
@@ -2169,11 +1968,8 @@
 		"inventory_min": "90",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "160"
+		"retail_price": "160"
 	},
 	{
 		"key": "69",
@@ -2201,11 +1997,8 @@
 		"inventory_min": "1",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1150"
+		"retail_price": "1150"
 	},
 	{
 		"key": "70",
@@ -2233,11 +2026,8 @@
 		"inventory_min": "8",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "2850"
+		"retail_price": "2850"
 	},
 	{
 		"key": "71",
@@ -2265,11 +2055,8 @@
 		"inventory_min": "4",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1180"
+		"retail_price": "1180"
 	},
 	{
 		"key": "72",
@@ -2297,11 +2084,8 @@
 		"inventory_min": "3",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1680"
+		"retail_price": "1680"
 	},
 	{
 		"key": "73",
@@ -2329,11 +2113,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1250"
+		"retail_price": "1250"
 	},
 	{
 		"key": "74",
@@ -2361,11 +2142,8 @@
 		"inventory_min": "6",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1050"
+		"entry_price": "880",
+		"retail_price": "1050"
 	},
 	{
 		"key": "75",
@@ -2393,11 +2171,8 @@
 		"inventory_min": "49",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "380"
+		"retail_price": "380"
 	},
 	{
 		"key": "76",
@@ -2425,11 +2200,8 @@
 		"inventory_min": "9.8",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1750"
+		"retail_price": "1750"
 	},
 	{
 		"key": "77",
@@ -2457,11 +2229,8 @@
 		"inventory_min": "52",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "360"
+		"entry_price": "280",
+		"retail_price": "360"
 	},
 	{
 		"key": "78",
@@ -2489,11 +2258,8 @@
 		"inventory_min": "10.4",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1650"
+		"retail_price": "1650"
 	},
 	{
 		"key": "79",
@@ -2521,11 +2287,8 @@
 		"inventory_min": "9",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1200"
+		"retail_price": "1200"
 	},
 	{
 		"key": "80",
@@ -2553,11 +2316,8 @@
 		"inventory_min": "23",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "450"
+		"retail_price": "450"
 	},
 	{
 		"key": "81",
@@ -2585,11 +2345,8 @@
 		"inventory_min": "13",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "860"
+		"retail_price": "860"
 	},
 	{
 		"key": "82",
@@ -2617,11 +2374,8 @@
 		"inventory_min": "6",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "980"
+		"retail_price": "980"
 	},
 	{
 		"key": "83",
@@ -2649,11 +2403,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "880"
+		"retail_price": "880"
 	},
 	{
 		"key": "84",
@@ -2681,11 +2432,8 @@
 		"inventory_min": "16",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "540"
+		"retail_price": "540"
 	},
 	{
 		"key": "85",
@@ -2713,11 +2461,8 @@
 		"inventory_min": "16",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "650"
+		"retail_price": "650"
 	},
 	{
 		"key": "86",
@@ -2745,11 +2490,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1900"
+		"retail_price": "1900"
 	},
 	{
 		"key": "87",
@@ -2777,11 +2519,8 @@
 		"inventory_min": "28",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "2100"
+		"retail_price": "2100"
 	},
 	{
 		"key": "88",
@@ -2809,11 +2548,8 @@
 		"inventory_min": "-1",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "480"
+		"retail_price": "480"
 	},
 	{
 		"key": "89",
@@ -2841,11 +2577,8 @@
 		"inventory_min": "-117",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "120"
+		"entry_price": "70",
+		"retail_price": "120"
 	},
 	{
 		"key": "90",
@@ -2873,11 +2606,8 @@
 		"inventory_min": "13",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "2500"
+		"retail_price": "2500"
 	},
 	{
 		"key": "91",
@@ -2905,11 +2635,8 @@
 		"inventory_min": "6.5",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1200"
+		"retail_price": "1200"
 	},
 	{
 		"key": "92",
@@ -2937,11 +2664,8 @@
 		"inventory_min": "15",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "140"
+		"retail_price": "140"
 	},
 	{
 		"key": "93",
@@ -2969,11 +2693,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "680"
+		"retail_price": "680"
 	},
 	{
 		"key": "94",
@@ -3001,11 +2722,8 @@
 		"inventory_min": "3",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "450"
+		"entry_price": "350",
+		"retail_price": "450"
 	},
 	{
 		"key": "95",
@@ -3033,11 +2751,8 @@
 		"inventory_min": "3",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "850"
+		"retail_price": "850"
 	},
 	{
 		"key": "96",
@@ -3065,11 +2780,8 @@
 		"inventory_min": "8.14",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "320"
+		"entry_price": "200",
+		"retail_price": "320"
 	},
 	{
 		"key": "97",
@@ -3097,11 +2809,8 @@
 		"inventory_min": "2.7687",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "850"
+		"retail_price": "850"
 	},
 	{
 		"key": "98",
@@ -3129,11 +2838,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "150"
+		"retail_price": "150"
 	},
 	{
 		"key": "99",
@@ -3161,11 +2867,8 @@
 		"inventory_min": "7",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "150"
+		"entry_price": "100",
+		"retail_price": "150"
 	},
 	{
 		"key": "100",
@@ -3193,11 +2896,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "750"
+		"retail_price": "750"
 	},
 	{
 		"key": "101",
@@ -3225,11 +2925,8 @@
 		"inventory_min": "-15",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "150"
+		"entry_price": "100",
+		"retail_price": "150"
 	},
 	{
 		"key": "102",
@@ -3257,11 +2954,8 @@
 		"inventory_min": "0.91",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1050"
+		"retail_price": "1050"
 	},
 	{
 		"key": "103",
@@ -3289,11 +2983,8 @@
 		"inventory_min": "43",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "360"
+		"entry_price": "250",
+		"retail_price": "360"
 	},
 	{
 		"key": "104",
@@ -3321,11 +3012,8 @@
 		"inventory_min": "10",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "780"
+		"retail_price": "780"
 	},
 	{
 		"key": "105",
@@ -3353,11 +3041,8 @@
 		"inventory_min": "6",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "500"
+		"entry_price": "500",
+		"retail_price": "500"
 	},
 	{
 		"key": "106",
@@ -3385,11 +3070,8 @@
 		"inventory_min": "12",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "150"
+		"entry_price": "100",
+		"retail_price": "150"
 	},
 	{
 		"key": "107",
@@ -3417,11 +3099,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "680"
+		"retail_price": "680"
 	},
 	{
 		"key": "108",
@@ -3449,11 +3128,8 @@
 		"inventory_min": "130",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "180"
+		"retail_price": "180"
 	},
 	{
 		"key": "109",
@@ -3481,11 +3157,8 @@
 		"inventory_min": "26",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "750"
+		"retail_price": "750"
 	},
 	{
 		"key": "110",
@@ -3513,11 +3186,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "350"
+		"entry_price": "350",
+		"retail_price": "350"
 	},
 	{
 		"key": "111",
@@ -3545,11 +3215,8 @@
 		"inventory_min": "43",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "150"
+		"retail_price": "150"
 	},
 	{
 		"key": "112",
@@ -3577,11 +3244,8 @@
 		"inventory_min": "18",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "150"
+		"retail_price": "150"
 	},
 	{
 		"key": "113",
@@ -3609,11 +3273,8 @@
 		"inventory_min": "41",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "150"
+		"entry_price": "165",
+		"retail_price": "150"
 	},
 	{
 		"key": "114",
@@ -3641,11 +3302,8 @@
 		"inventory_min": "11.44",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "400"
+		"retail_price": "400"
 	},
 	{
 		"key": "115",
@@ -3673,11 +3331,8 @@
 		"inventory_min": "18",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "150"
+		"entry_price": "100",
+		"retail_price": "150"
 	},
 	{
 		"key": "116",
@@ -3705,11 +3360,8 @@
 		"inventory_min": "45",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "150"
+		"entry_price": "165",
+		"retail_price": "150"
 	},
 	{
 		"key": "117",
@@ -3737,11 +3389,8 @@
 		"inventory_min": "194",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "180"
+		"entry_price": "100",
+		"retail_price": "180"
 	},
 	{
 		"key": "118",
@@ -3769,11 +3418,8 @@
 		"inventory_min": "-68",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "180"
+		"retail_price": "180"
 	},
 	{
 		"key": "119",
@@ -3801,11 +3447,8 @@
 		"inventory_min": "-13.6",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "750"
+		"retail_price": "750"
 	},
 	{
 		"key": "120",
@@ -3833,11 +3476,8 @@
 		"inventory_min": "262",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "180"
+		"retail_price": "180"
 	},
 	{
 		"key": "121",
@@ -3865,11 +3505,8 @@
 		"inventory_min": "16",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1250"
+		"retail_price": "1250"
 	},
 	{
 		"key": "122",
@@ -3897,11 +3534,8 @@
 		"inventory_min": "-4.32",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1800"
+		"retail_price": "1800"
 	},
 	{
 		"key": "123",
@@ -3929,11 +3563,8 @@
 		"inventory_min": "3",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "450"
+		"retail_price": "450"
 	},
 	{
 		"key": "124",
@@ -3961,11 +3592,8 @@
 		"inventory_min": "9.5",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1800"
+		"retail_price": "1800"
 	},
 	{
 		"key": "125",
@@ -3993,11 +3621,8 @@
 		"inventory_min": "-6.91",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1200"
+		"retail_price": "1200"
 	},
 	{
 		"key": "126",
@@ -4025,11 +3650,8 @@
 		"inventory_min": "32.49",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1380"
+		"entry_price": "1100",
+		"retail_price": "1380"
 	},
 	{
 		"key": "127",
@@ -4057,11 +3679,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1500"
+		"entry_price": "500",
+		"retail_price": "1500"
 	},
 	{
 		"key": "128",
@@ -4089,11 +3708,8 @@
 		"inventory_min": "-4",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "750"
+		"retail_price": "750"
 	},
 	{
 		"key": "129",
@@ -4121,11 +3737,8 @@
 		"inventory_min": "29",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "480"
+		"entry_price": "250",
+		"retail_price": "480"
 	},
 	{
 		"key": "130",
@@ -4153,11 +3766,8 @@
 		"inventory_min": "2",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "880"
+		"entry_price": "500",
+		"retail_price": "880"
 	},
 	{
 		"key": "131",
@@ -4185,11 +3795,8 @@
 		"inventory_min": "18",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "700"
+		"retail_price": "700"
 	},
 	{
 		"key": "132",
@@ -4217,11 +3824,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1360"
+		"retail_price": "1360"
 	},
 	{
 		"key": "133",
@@ -4249,11 +3853,8 @@
 		"inventory_min": "-17",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "65"
+		"retail_price": "65"
 	},
 	{
 		"key": "134",
@@ -4281,11 +3882,8 @@
 		"inventory_min": "-1.4167",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "650"
+		"retail_price": "650"
 	},
 	{
 		"key": "135",
@@ -4313,11 +3911,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "320"
+		"entry_price": "280",
+		"retail_price": "320"
 	},
 	{
 		"key": "136",
@@ -4345,11 +3940,8 @@
 		"inventory_min": "102",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "245"
+		"retail_price": "245"
 	},
 	{
 		"key": "137",
@@ -4377,11 +3969,8 @@
 		"inventory_min": "65",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "780"
+		"entry_price": "500",
+		"retail_price": "780"
 	},
 	{
 		"key": "138",
@@ -4409,11 +3998,8 @@
 		"inventory_min": "-4",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "420"
+		"entry_price": "260",
+		"retail_price": "420"
 	},
 	{
 		"key": "139",
@@ -4441,11 +4027,8 @@
 		"inventory_min": "56",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "280"
+		"entry_price": "175",
+		"retail_price": "280"
 	},
 	{
 		"key": "140",
@@ -4473,11 +4056,8 @@
 		"inventory_min": "-1",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "550"
+		"retail_price": "550"
 	},
 	{
 		"key": "141",
@@ -4505,11 +4085,8 @@
 		"inventory_min": "-1",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "550"
+		"retail_price": "550"
 	},
 	{
 		"key": "142",
@@ -4537,11 +4114,8 @@
 		"inventory_min": "-4",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "650"
+		"retail_price": "650"
 	},
 	{
 		"key": "143",
@@ -4569,11 +4143,8 @@
 		"inventory_min": "-1",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "550"
+		"retail_price": "550"
 	},
 	{
 		"key": "144",
@@ -4601,11 +4172,8 @@
 		"inventory_min": "18",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "380"
+		"entry_price": "280",
+		"retail_price": "380"
 	},
 	{
 		"key": "145",
@@ -4633,11 +4201,8 @@
 		"inventory_min": "7",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "420"
+		"retail_price": "420"
 	},
 	{
 		"key": "146",
@@ -4665,11 +4230,8 @@
 		"inventory_min": "61",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "290"
+		"entry_price": "200",
+		"retail_price": "290"
 	},
 	{
 		"key": "147",
@@ -4697,11 +4259,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "380"
+		"entry_price": "280",
+		"retail_price": "380"
 	},
 	{
 		"key": "148",
@@ -4729,11 +4288,8 @@
 		"inventory_min": "2",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "450"
+		"retail_price": "450"
 	},
 	{
 		"key": "149",
@@ -4761,11 +4317,8 @@
 		"inventory_min": "7",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "420"
+		"retail_price": "420"
 	},
 	{
 		"key": "150",
@@ -4793,11 +4346,8 @@
 		"inventory_min": "3",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "650"
+		"retail_price": "650"
 	},
 	{
 		"key": "151",
@@ -4825,11 +4375,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "360"
+		"entry_price": "260",
+		"retail_price": "360"
 	},
 	{
 		"key": "152",
@@ -4857,11 +4404,8 @@
 		"inventory_min": "3",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "290"
+		"retail_price": "290"
 	},
 	{
 		"key": "153",
@@ -4889,11 +4433,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "380"
+		"entry_price": "250",
+		"retail_price": "380"
 	},
 	{
 		"key": "154",
@@ -4921,11 +4462,8 @@
 		"inventory_min": "11",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "680"
+		"entry_price": "360",
+		"retail_price": "680"
 	},
 	{
 		"key": "155",
@@ -4953,11 +4491,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "360"
+		"entry_price": "200",
+		"retail_price": "360"
 	},
 	{
 		"key": "156",
@@ -4985,11 +4520,8 @@
 		"inventory_min": "30",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "150"
+		"retail_price": "150"
 	},
 	{
 		"key": "157",
@@ -5017,11 +4549,8 @@
 		"inventory_min": "39",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "580"
+		"entry_price": "420",
+		"retail_price": "580"
 	},
 	{
 		"key": "158",
@@ -5049,11 +4578,8 @@
 		"inventory_min": "76",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "230"
+		"entry_price": "120",
+		"retail_price": "230"
 	},
 	{
 		"key": "159",
@@ -5081,11 +4607,8 @@
 		"inventory_min": "-5",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "520"
+		"retail_price": "520"
 	},
 	{
 		"key": "160",
@@ -5113,11 +4636,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "780"
+		"retail_price": "780"
 	},
 	{
 		"key": "161",
@@ -5145,11 +4665,8 @@
 		"inventory_min": "7",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1150"
+		"retail_price": "1150"
 	},
 	{
 		"key": "162",
@@ -5177,11 +4694,8 @@
 		"inventory_min": "5",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "380"
+		"retail_price": "380"
 	},
 	{
 		"key": "163",
@@ -5209,11 +4723,8 @@
 		"inventory_min": "42",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "380"
+		"entry_price": "280",
+		"retail_price": "380"
 	},
 	{
 		"key": "164",
@@ -5241,11 +4752,8 @@
 		"inventory_min": "35",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "180"
+		"entry_price": "130",
+		"retail_price": "180"
 	},
 	{
 		"key": "165",
@@ -5273,11 +4781,8 @@
 		"inventory_min": "3.0833",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "2760"
+		"retail_price": "2760"
 	},
 	{
 		"key": "166",
@@ -5305,11 +4810,8 @@
 		"inventory_min": "37",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "250"
+		"retail_price": "250"
 	},
 	{
 		"key": "167",
@@ -5337,11 +4839,8 @@
 		"inventory_min": "66",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "190"
+		"entry_price": "190",
+		"retail_price": "190"
 	},
 	{
 		"key": "168",
@@ -5369,11 +4868,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "420"
+		"retail_price": "420"
 	},
 	{
 		"key": "169",
@@ -5401,11 +4897,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "350"
+		"entry_price": "270",
+		"retail_price": "350"
 	},
 	{
 		"key": "170",
@@ -5433,11 +4926,8 @@
 		"inventory_min": "132",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "140"
+		"retail_price": "140"
 	},
 	{
 		"key": "171",
@@ -5465,11 +4955,8 @@
 		"inventory_min": "103",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "380"
+		"retail_price": "380"
 	},
 	{
 		"key": "172",
@@ -5497,11 +4984,8 @@
 		"inventory_min": "10",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "700"
+		"retail_price": "700"
 	},
 	{
 		"key": "173",
@@ -5529,11 +5013,8 @@
 		"inventory_min": "46",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "750"
+		"retail_price": "750"
 	},
 	{
 		"key": "174",
@@ -5561,11 +5042,8 @@
 		"inventory_min": "12.5",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1890"
+		"retail_price": "1890"
 	},
 	{
 		"key": "175",
@@ -5593,11 +5071,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "760"
+		"retail_price": "760"
 	},
 	{
 		"key": "176",
@@ -5625,11 +5100,8 @@
 		"inventory_min": "72",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "250"
+		"entry_price": "180",
+		"retail_price": "250"
 	},
 	{
 		"key": "177",
@@ -5657,11 +5129,8 @@
 		"inventory_min": "42",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "320"
+		"entry_price": "200",
+		"retail_price": "320"
 	},
 	{
 		"key": "178",
@@ -5689,11 +5158,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "180"
+		"retail_price": "180"
 	},
 	{
 		"key": "179",
@@ -5721,11 +5187,8 @@
 		"inventory_min": "14",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "230"
+		"retail_price": "230"
 	},
 	{
 		"key": "180",
@@ -5753,11 +5216,8 @@
 		"inventory_min": "60",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "180"
+		"entry_price": "160",
+		"retail_price": "180"
 	},
 	{
 		"key": "181",
@@ -5785,11 +5245,8 @@
 		"inventory_min": "58",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "150"
+		"entry_price": "100",
+		"retail_price": "150"
 	},
 	{
 		"key": "182",
@@ -5817,11 +5274,8 @@
 		"inventory_min": "30",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "150"
+		"entry_price": "100",
+		"retail_price": "150"
 	},
 	{
 		"key": "183",
@@ -5849,11 +5303,8 @@
 		"inventory_min": "69",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "40"
+		"entry_price": "20",
+		"retail_price": "40"
 	},
 	{
 		"key": "184",
@@ -5881,11 +5332,8 @@
 		"inventory_min": "31",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "680"
+		"entry_price": "300",
+		"retail_price": "680"
 	},
 	{
 		"key": "185",
@@ -5913,11 +5361,8 @@
 		"inventory_min": "38",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "180"
+		"entry_price": "100",
+		"retail_price": "180"
 	},
 	{
 		"key": "186",
@@ -5945,11 +5390,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "230"
+		"retail_price": "230"
 	},
 	{
 		"key": "187",
@@ -5977,11 +5419,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "620"
+		"entry_price": "200",
+		"retail_price": "620"
 	},
 	{
 		"key": "188",
@@ -6009,11 +5448,8 @@
 		"inventory_min": "121",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "180"
+		"entry_price": "100",
+		"retail_price": "180"
 	},
 	{
 		"key": "189",
@@ -6041,11 +5477,8 @@
 		"inventory_min": "-11",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "180"
+		"entry_price": "100",
+		"retail_price": "180"
 	},
 	{
 		"key": "190",
@@ -6073,11 +5506,8 @@
 		"inventory_min": "177",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "150"
+		"entry_price": "80",
+		"retail_price": "150"
 	},
 	{
 		"key": "191",
@@ -6105,11 +5535,8 @@
 		"inventory_min": "196",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "180"
+		"entry_price": "100",
+		"retail_price": "180"
 	},
 	{
 		"key": "192",
@@ -6137,11 +5564,8 @@
 		"inventory_min": "16",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "450"
+		"retail_price": "450"
 	},
 	{
 		"key": "193",
@@ -6169,11 +5593,8 @@
 		"inventory_min": "145",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "180"
+		"entry_price": "100",
+		"retail_price": "180"
 	},
 	{
 		"key": "194",
@@ -6201,11 +5622,8 @@
 		"inventory_min": "67",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "180"
+		"entry_price": "100",
+		"retail_price": "180"
 	},
 	{
 		"key": "195",
@@ -6233,11 +5651,8 @@
 		"inventory_min": "115",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "150"
+		"entry_price": "100",
+		"retail_price": "150"
 	},
 	{
 		"key": "196",
@@ -6265,11 +5680,8 @@
 		"inventory_min": "28",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "220"
+		"retail_price": "220"
 	},
 	{
 		"key": "197",
@@ -6297,11 +5709,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "260"
+		"entry_price": "150",
+		"retail_price": "260"
 	},
 	{
 		"key": "198",
@@ -6329,11 +5738,8 @@
 		"inventory_min": "57",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "380"
+		"entry_price": "270",
+		"retail_price": "380"
 	},
 	{
 		"key": "199",
@@ -6361,11 +5767,8 @@
 		"inventory_min": "69",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "680"
+		"entry_price": "420",
+		"retail_price": "680"
 	},
 	{
 		"key": "200",
@@ -6393,11 +5796,8 @@
 		"inventory_min": "11",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "150"
+		"entry_price": "100",
+		"retail_price": "150"
 	},
 	{
 		"key": "201",
@@ -6425,11 +5825,8 @@
 		"inventory_min": "13",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "150"
+		"retail_price": "150"
 	},
 	{
 		"key": "202",
@@ -6457,11 +5854,8 @@
 		"inventory_min": "45",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "790"
+		"entry_price": "550",
+		"retail_price": "790"
 	},
 	{
 		"key": "203",
@@ -6489,11 +5883,8 @@
 		"inventory_min": "47",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "760"
+		"entry_price": "400",
+		"retail_price": "760"
 	},
 	{
 		"key": "204",
@@ -6521,11 +5912,8 @@
 		"inventory_min": "448",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "540"
+		"entry_price": "410",
+		"retail_price": "540"
 	},
 	{
 		"key": "205",
@@ -6553,11 +5941,8 @@
 		"inventory_min": "3",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "560"
+		"retail_price": "560"
 	},
 	{
 		"key": "206",
@@ -6585,11 +5970,8 @@
 		"inventory_min": "301",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "750"
+		"retail_price": "750"
 	},
 	{
 		"key": "207",
@@ -6617,11 +5999,8 @@
 		"inventory_min": "-1",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "580"
+		"entry_price": "300",
+		"retail_price": "580"
 	},
 	{
 		"key": "208",
@@ -6649,11 +6028,8 @@
 		"inventory_min": "53",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "590"
+		"retail_price": "590"
 	},
 	{
 		"key": "209",
@@ -6681,11 +6057,8 @@
 		"inventory_min": "14",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "680"
+		"entry_price": "560",
+		"retail_price": "680"
 	},
 	{
 		"key": "210",
@@ -6713,11 +6086,8 @@
 		"inventory_min": "114",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "480"
+		"entry_price": "280",
+		"retail_price": "480"
 	},
 	{
 		"key": "211",
@@ -6745,11 +6115,8 @@
 		"inventory_min": "10",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "680"
+		"retail_price": "680"
 	},
 	{
 		"key": "212",
@@ -6777,11 +6144,8 @@
 		"inventory_min": "34",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "760"
+		"entry_price": "330",
+		"retail_price": "760"
 	},
 	{
 		"key": "213",
@@ -6809,11 +6173,8 @@
 		"inventory_min": "128",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "450"
+		"entry_price": "280",
+		"retail_price": "450"
 	},
 	{
 		"key": "214",
@@ -6841,11 +6202,8 @@
 		"inventory_min": "-12",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "480"
+		"entry_price": "180",
+		"retail_price": "480"
 	},
 	{
 		"key": "215",
@@ -6873,11 +6231,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "320"
+		"entry_price": "150",
+		"retail_price": "320"
 	},
 	{
 		"key": "216",
@@ -6905,11 +6260,8 @@
 		"inventory_min": "6",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "250"
+		"retail_price": "250"
 	},
 	{
 		"key": "217",
@@ -6937,11 +6289,8 @@
 		"inventory_min": "29",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "320"
+		"entry_price": "70",
+		"retail_price": "320"
 	},
 	{
 		"key": "218",
@@ -6969,11 +6318,8 @@
 		"inventory_min": "-1",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "210"
+		"retail_price": "210"
 	},
 	{
 		"key": "219",
@@ -7001,11 +6347,8 @@
 		"inventory_min": "88",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "450"
+		"retail_price": "450"
 	},
 	{
 		"key": "220",
@@ -7033,11 +6376,8 @@
 		"inventory_min": "38",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "550"
+		"retail_price": "550"
 	},
 	{
 		"key": "221",
@@ -7065,11 +6405,8 @@
 		"inventory_min": "42",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "40"
+		"entry_price": "20",
+		"retail_price": "40"
 	},
 	{
 		"key": "222",
@@ -7097,11 +6434,8 @@
 		"inventory_min": "60",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "280"
+		"retail_price": "280"
 	},
 	{
 		"key": "223",
@@ -7129,11 +6463,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "180"
+		"entry_price": "180",
+		"retail_price": "180"
 	},
 	{
 		"key": "224",
@@ -7161,11 +6492,8 @@
 		"inventory_min": "113",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "580"
+		"entry_price": "560",
+		"retail_price": "580"
 	},
 	{
 		"key": "225",
@@ -7193,11 +6521,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "760"
+		"entry_price": "460",
+		"retail_price": "760"
 	},
 	{
 		"key": "226",
@@ -7225,11 +6550,8 @@
 		"inventory_min": "92",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "280"
+		"entry_price": "180",
+		"retail_price": "280"
 	},
 	{
 		"key": "227",
@@ -7257,11 +6579,8 @@
 		"inventory_min": "30",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "280"
+		"entry_price": "200",
+		"retail_price": "280"
 	},
 	{
 		"key": "228",
@@ -7289,11 +6608,8 @@
 		"inventory_min": "1",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "480"
+		"entry_price": "300",
+		"retail_price": "480"
 	},
 	{
 		"key": "229",
@@ -7321,11 +6637,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "480"
+		"entry_price": "280",
+		"retail_price": "480"
 	},
 	{
 		"key": "230",
@@ -7353,11 +6666,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "760"
+		"entry_price": "430",
+		"retail_price": "760"
 	},
 	{
 		"key": "231",
@@ -7385,11 +6695,8 @@
 		"inventory_min": "4",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "150"
+		"entry_price": "280",
+		"retail_price": "150"
 	},
 	{
 		"key": "232",
@@ -7417,11 +6724,8 @@
 		"inventory_min": "38",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "180"
+		"entry_price": "60",
+		"retail_price": "180"
 	},
 	{
 		"is_dis": "1",
@@ -7448,11 +6752,8 @@
 		"inventory_min": "869",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "260"
+		"entry_price": "250",
+		"retail_price": "260"
 	},
 	{
 		"is_dis": "1",
@@ -7479,11 +6780,8 @@
 		"inventory_min": "88",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "120"
+		"entry_price": "230",
+		"retail_price": "120"
 	},
 	{
 		"is_dis": "1",
@@ -7510,11 +6808,8 @@
 		"inventory_min": "1",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "380"
+		"entry_price": "270",
+		"retail_price": "380"
 	},
 	{
 		"is_dis": "1",
@@ -7541,11 +6836,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "580"
+		"retail_price": "580"
 	},
 	{
 		"is_dis": "1",
@@ -7572,11 +6864,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "480"
+		"entry_price": "320",
+		"retail_price": "480"
 	},
 	{
 		"is_dis": "1",
@@ -7603,11 +6892,8 @@
 		"inventory_min": "15",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "580"
+		"retail_price": "580"
 	},
 	{
 		"is_dis": "1",
@@ -7634,11 +6920,8 @@
 		"inventory_min": "-4",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "320"
+		"retail_price": "320"
 	},
 	{
 		"is_dis": "1",
@@ -7665,11 +6948,8 @@
 		"inventory_min": "-5",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "290"
+		"entry_price": "180",
+		"retail_price": "290"
 	},
 	{
 		"is_dis": "1",
@@ -7696,11 +6976,8 @@
 		"inventory_min": "103",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "320"
+		"retail_price": "320"
 	},
 	{
 		"is_dis": "1",
@@ -7727,11 +7004,8 @@
 		"inventory_min": "2",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "220"
+		"entry_price": "100",
+		"retail_price": "220"
 	},
 	{
 		"is_dis": "1",
@@ -7758,11 +7032,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "360"
+		"entry_price": "200",
+		"retail_price": "360"
 	},
 	{
 		"is_dis": "1",
@@ -7789,11 +7060,8 @@
 		"inventory_min": "99",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "180"
+		"entry_price": "100",
+		"retail_price": "180"
 	},
 	{
 		"is_dis": "1",
@@ -7820,11 +7088,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "350"
+		"entry_price": "240",
+		"retail_price": "350"
 	},
 	{
 		"is_dis": "1",
@@ -7851,11 +7116,8 @@
 		"inventory_min": "-0.0333",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "3200"
+		"retail_price": "3200"
 	},
 	{
 		"is_dis": "1",
@@ -7882,11 +7144,8 @@
 		"inventory_min": "-1",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "120"
+		"retail_price": "120"
 	},
 	{
 		"is_dis": "1",
@@ -7913,11 +7172,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "680"
+		"retail_price": "680"
 	},
 	{
 		"is_dis": "1",
@@ -7944,11 +7200,8 @@
 		"inventory_min": "18",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "680"
+		"entry_price": "520",
+		"retail_price": "680"
 	},
 	{
 		"is_dis": "1",
@@ -7975,11 +7228,8 @@
 		"inventory_min": "-14",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "380"
+		"entry_price": "280",
+		"retail_price": "380"
 	},
 	{
 		"is_dis": "1",
@@ -8006,11 +7256,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "330"
+		"retail_price": "330"
 	},
 	{
 		"is_dis": "1",
@@ -8037,11 +7284,8 @@
 		"inventory_min": "67",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "380"
+		"retail_price": "380"
 	},
 	{
 		"is_dis": "1",
@@ -8068,11 +7312,8 @@
 		"inventory_min": "125",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "190"
+		"entry_price": "280",
+		"retail_price": "190"
 	},
 	{
 		"is_dis": "1",
@@ -8099,11 +7340,8 @@
 		"inventory_min": "62",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "380"
+		"retail_price": "380"
 	},
 	{
 		"is_dis": "1",
@@ -8130,11 +7368,8 @@
 		"inventory_min": "407",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "380"
+		"entry_price": "280",
+		"retail_price": "380"
 	},
 	{
 		"is_dis": "1",
@@ -8161,11 +7396,8 @@
 		"inventory_min": "7",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "450"
+		"retail_price": "450"
 	},
 	{
 		"is_dis": "1",
@@ -8192,11 +7424,8 @@
 		"inventory_min": "231",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "380"
+		"entry_price": "230",
+		"retail_price": "380"
 	},
 	{
 		"is_dis": "1",
@@ -8223,11 +7452,8 @@
 		"inventory_min": "83",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "380"
+		"entry_price": "230",
+		"retail_price": "380"
 	},
 	{
 		"is_dis": "1",
@@ -8254,11 +7480,8 @@
 		"inventory_min": "286",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "380"
+		"entry_price": "260",
+		"retail_price": "380"
 	},
 	{
 		"is_dis": "1",
@@ -8285,11 +7508,8 @@
 		"inventory_min": "235",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "580"
+		"entry_price": "260",
+		"retail_price": "580"
 	},
 	{
 		"is_dis": "1",
@@ -8316,11 +7536,8 @@
 		"inventory_min": "27",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "250"
+		"entry_price": "180",
+		"retail_price": "250"
 	},
 	{
 		"is_dis": "1",
@@ -8347,11 +7564,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "250"
+		"entry_price": "180",
+		"retail_price": "250"
 	},
 	{
 		"is_dis": "0",
@@ -8378,11 +7592,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "3200"
+		"retail_price": "3200"
 	},
 	{
 		"is_dis": "0",
@@ -8409,11 +7620,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "120"
+		"retail_price": "120"
 	},
 	{
 		"is_dis": "0",
@@ -8440,11 +7648,8 @@
 		"inventory_min": "0.7",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "3200"
+		"retail_price": "3200"
 	},
 	{
 		"is_dis": "0",
@@ -8471,11 +7676,8 @@
 		"inventory_min": "21",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "120"
+		"retail_price": "120"
 	},
 	{
 		"is_dis": "1",
@@ -8502,11 +7704,8 @@
 		"inventory_min": "184",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "248"
+		"entry_price": "180",
+		"retail_price": "248"
 	},
 	{
 		"is_dis": "1",
@@ -8533,11 +7732,8 @@
 		"inventory_min": "17",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "120"
+		"retail_price": "120"
 	},
 	{
 		"is_dis": "1",
@@ -8564,11 +7760,8 @@
 		"inventory_min": "34",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "360"
+		"entry_price": "250",
+		"retail_price": "360"
 	},
 	{
 		"is_dis": "1",
@@ -8595,11 +7788,8 @@
 		"inventory_min": "17",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "360"
+		"entry_price": "250",
+		"retail_price": "360"
 	},
 	{
 		"is_dis": "1",
@@ -8626,11 +7816,8 @@
 		"inventory_min": "241",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "360"
+		"entry_price": "250",
+		"retail_price": "360"
 	},
 	{
 		"is_dis": "1",
@@ -8657,11 +7844,8 @@
 		"inventory_min": "7",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "580"
+		"entry_price": "420",
+		"retail_price": "580"
 	},
 	{
 		"is_dis": "1",
@@ -8688,11 +7872,8 @@
 		"inventory_min": "12",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "320"
+		"entry_price": "150",
+		"retail_price": "320"
 	},
 	{
 		"is_dis": "1",
@@ -8719,11 +7900,8 @@
 		"inventory_min": "16",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "320"
+		"retail_price": "320"
 	},
 	{
 		"is_dis": "1",
@@ -8750,11 +7928,8 @@
 		"inventory_min": "92",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "450"
+		"retail_price": "450"
 	},
 	{
 		"is_dis": "1",
@@ -8781,11 +7956,8 @@
 		"inventory_min": "57",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "360"
+		"entry_price": "260",
+		"retail_price": "360"
 	},
 	{
 		"is_dis": "1",
@@ -8812,11 +7984,8 @@
 		"inventory_min": "32",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "280"
+		"entry_price": "380",
+		"retail_price": "280"
 	},
 	{
 		"is_dis": "1",
@@ -8843,11 +8012,8 @@
 		"inventory_min": "-3.8",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "2900"
+		"retail_price": "2900"
 	},
 	{
 		"is_dis": "1",
@@ -8874,11 +8040,8 @@
 		"inventory_min": "-114",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "110"
+		"retail_price": "110"
 	},
 	{
 		"is_dis": "1",
@@ -8905,11 +8068,8 @@
 		"inventory_min": "90.4667",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "2280"
+		"retail_price": "2280"
 	},
 	{
 		"is_dis": "1",
@@ -8936,11 +8096,8 @@
 		"inventory_min": "2714",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "90"
+		"retail_price": "90"
 	},
 	{
 		"is_dis": "1",
@@ -8967,11 +8124,8 @@
 		"inventory_min": "15",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "140"
+		"retail_price": "140"
 	},
 	{
 		"is_dis": "1",
@@ -8998,11 +8152,8 @@
 		"inventory_min": "24",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "140"
+		"retail_price": "140"
 	},
 	{
 		"is_dis": "1",
@@ -9029,11 +8180,8 @@
 		"inventory_min": "63",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "240"
+		"entry_price": "175",
+		"retail_price": "240"
 	},
 	{
 		"is_dis": "1",
@@ -9060,11 +8208,8 @@
 		"inventory_min": "101",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "340"
+		"retail_price": "340"
 	},
 	{
 		"is_dis": "1",
@@ -9091,11 +8236,8 @@
 		"inventory_min": "27",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "280"
+		"entry_price": "160",
+		"retail_price": "280"
 	},
 	{
 		"is_dis": "1",
@@ -9122,11 +8264,8 @@
 		"inventory_min": "21",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "240"
+		"entry_price": "240",
+		"retail_price": "240"
 	},
 	{
 		"is_dis": "1",
@@ -9153,11 +8292,8 @@
 		"inventory_min": "24",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1250"
+		"retail_price": "1250"
 	},
 	{
 		"is_dis": "0",
@@ -9184,11 +8320,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "120"
+		"retail_price": "120"
 	},
 	{
 		"is_dis": "0",
@@ -9215,11 +8348,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "3200"
+		"retail_price": "3200"
 	},
 	{
 		"is_dis": "0",
@@ -9246,11 +8376,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "3200"
+		"retail_price": "3200"
 	},
 	{
 		"is_dis": "0",
@@ -9277,11 +8404,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "120"
+		"retail_price": "120"
 	},
 	{
 		"is_dis": "1",
@@ -9308,11 +8432,8 @@
 		"inventory_min": "1972",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "110"
+		"retail_price": "110"
 	},
 	{
 		"is_dis": "1",
@@ -9339,11 +8460,8 @@
 		"inventory_min": "65.7333",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "2900"
+		"retail_price": "2900"
 	},
 	{
 		"is_dis": "1",
@@ -9370,11 +8488,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "2900"
+		"retail_price": "2900"
 	},
 	{
 		"is_dis": "1",
@@ -9401,11 +8516,8 @@
 		"inventory_min": "0",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "100"
+		"retail_price": "100"
 	},
 	{
 		"is_dis": "1",
@@ -9432,11 +8544,8 @@
 		"inventory_min": "1459",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "110"
+		"retail_price": "110"
 	},
 	{
 		"is_dis": "1",
@@ -9463,11 +8572,8 @@
 		"inventory_min": "48.6333",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "2900"
+		"retail_price": "2900"
 	},
 	{
 		"is_dis": "1",
@@ -9494,11 +8600,8 @@
 		"inventory_min": "-0.0667",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "2900"
+		"retail_price": "2900"
 	},
 	{
 		"is_dis": "1",
@@ -9525,11 +8628,8 @@
 		"inventory_min": "-2",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "100"
+		"retail_price": "100"
 	},
 	{
 		"is_dis": "1",
@@ -9556,11 +8656,8 @@
 		"inventory_min": "58",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "250"
+		"entry_price": "190",
+		"retail_price": "250"
 	},
 	{
 		"is_dis": "1",
@@ -9587,11 +8684,8 @@
 		"inventory_min": "119",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "280"
+		"entry_price": "180",
+		"retail_price": "280"
 	},
 	{
 		"is_dis": "1",
@@ -9618,11 +8712,8 @@
 		"inventory_min": "7",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "210"
+		"retail_price": "210"
 	},
 	{
 		"is_dis": "1",
@@ -9649,11 +8740,8 @@
 		"inventory_min": "-1",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "210"
+		"retail_price": "210"
 	},
 	{
 		"is_dis": "1",
@@ -9680,11 +8768,8 @@
 		"inventory_min": "-5",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "2780"
+		"entry_price": "2500",
+		"retail_price": "2780"
 	},
 	{
 		"is_dis": "1",
@@ -9711,11 +8796,8 @@
 		"inventory_min": "17",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
-		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1430"
+		"entry_price": "1250",
+		"retail_price": "1430"
 	},
 	{
 		"is_dis": "1",
@@ -9742,10 +8824,7 @@
 		"inventory_min": "-4",
 		"inventory_max": "0",
 		"inventory_add": "0",
-		"inventory_point": "",
-		"wholesale_price": "0",
 		"entry_price": "0",
-		"retail_price": "0",
-		"undefined": "1300"
+		"retail_price": "1300"
 	}
 ]
